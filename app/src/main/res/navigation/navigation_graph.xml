@@ -45,7 +45,53 @@
         android:id="@+id/firstStationPage"
         android:name="com.ebookfrenzy.sampleimagebutton.firstStationPage"
         android:label="fragment_first_station_page"
-        tools:layout="@layout/fragment_first_station_page" />
+        tools:layout="@layout/fragment_first_station_page" >
+        <action
+            android:id="@+id/action_firstStationPage_to_realFirstStationPage"
+            app:destination="@id/realFirstStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_prepPrayerStationPage"
+            app:destination="@id/prepPrayerStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_secondStationPage"
+            app:destination="@id/secondStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_thirdStationPage"
+            app:destination="@id/thirdStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_fourthStationPage"
+            app:destination="@id/fourthStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_fifthStationPage"
+            app:destination="@id/fifthStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_sixthStationPage"
+            app:destination="@id/sixthStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_seventhStationPage"
+            app:destination="@id/seventhStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_eighthStationPage"
+            app:destination="@id/eighthStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_ninthStationPage"
+            app:destination="@id/ninthStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_tenthStationPage"
+            app:destination="@id/tenthStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_theEleventhStationPage"
+            app:destination="@id/theEleventhStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_twelfthStationPage"
+            app:destination="@id/twelfthStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_thirteenthStationPage"
+            app:destination="@id/thirteenthStationPage" />
+        <action
+            android:id="@+id/action_firstStationPage_to_fourteenthStationPage"
+            app:destination="@id/fourteenthStationPage" />
+    </fragment>
     <fragment
         android:id="@+id/thridFragment"
         android:name="com.ebookfrenzy.sampleimagebutton.thridFragment"
@@ -518,4 +564,79 @@
         android:name="com.ebookfrenzy.sampleimagebutton.TheEighthCommandmentPage"
         android:label="fragment_the_eighth_commandment_page"
         tools:layout="@layout/fragment_the_eighth_commandment_page" />
+    <fragment
+        android:id="@+id/realFirstStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.RealFirstStationPage"
+        android:label="fragment_real_first_station_page"
+        tools:layout="@layout/fragment_real_first_station_page" />
+    <fragment
+        android:id="@+id/prepPrayerStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.PrepPrayerStationPage"
+        android:label="fragment_prep_prayer_station_page"
+        tools:layout="@layout/fragment_prep_prayer_station_page" />
+    <fragment
+        android:id="@+id/secondStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.SecondStationPage"
+        android:label="fragment_second_station_page"
+        tools:layout="@layout/fragment_second_station_page" />
+    <fragment
+        android:id="@+id/thirdStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.ThirdStationPage"
+        android:label="fragment_third_station_page"
+        tools:layout="@layout/fragment_third_station_page" />
+    <fragment
+        android:id="@+id/fourthStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.FourthStationPage"
+        android:label="fragment_fourth_station_page"
+        tools:layout="@layout/fragment_fourth_station_page" />
+    <fragment
+        android:id="@+id/fifthStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.FifthStationPage"
+        android:label="fragment_fifth_station_page"
+        tools:layout="@layout/fragment_fifth_station_page" />
+    <fragment
+        android:id="@+id/sixthStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.SixthStationPage"
+        android:label="fragment_sixth_station_page"
+        tools:layout="@layout/fragment_sixth_station_page" />
+    <fragment
+        android:id="@+id/seventhStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.SeventhStationPage"
+        android:label="fragment_seventh_station_page"
+        tools:layout="@layout/fragment_seventh_station_page" />
+    <fragment
+        android:id="@+id/eighthStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.EighthStationPage"
+        android:label="fragment_eighth_station_page"
+        tools:layout="@layout/fragment_eighth_station_page" />
+    <fragment
+        android:id="@+id/ninthStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.NinthStationPage"
+        android:label="fragment_ninth_station_page"
+        tools:layout="@layout/fragment_ninth_station_page" />
+    <fragment
+        android:id="@+id/tenthStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.TenthStationPage"
+        android:label="fragment_tenth_station_page"
+        tools:layout="@layout/fragment_tenth_station_page" />
+    <fragment
+        android:id="@+id/theEleventhStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.TheEleventhStationPage"
+        android:label="fragment_the_eleventh_station_page"
+        tools:layout="@layout/fragment_the_eleventh_station_page" />
+    <fragment
+        android:id="@+id/twelfthStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.TwelfthStationPage"
+        android:label="fragment_twelfth_station_page"
+        tools:layout="@layout/fragment_twelfth_station_page" />
+    <fragment
+        android:id="@+id/thirteenthStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.ThirteenthStationPage"
+        android:label="fragment_thirteenth_station_page"
+        tools:layout="@layout/fragment_thirteenth_station_page" />
+    <fragment
+        android:id="@+id/fourteenthStationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.FourteenthStationPage"
+        android:label="fragment_fourteenth_station_page"
+        tools:layout="@layout/fragment_fourteenth_station_page" />
 </navigation>

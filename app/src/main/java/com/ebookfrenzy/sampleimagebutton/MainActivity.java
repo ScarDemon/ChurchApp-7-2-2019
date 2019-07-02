@@ -49,7 +49,15 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
         TheThirdCommandmentPage.OnFragmentInteractionListener, TheFourthCommandment_Children_Page.OnFragmentInteractionListener,
         TheFourthCommandment_Parent_Page.OnFragmentInteractionListener, TheFifthCommandmentPage.OnFragmentInteractionListener,
         SixthAndNinthCommandmentPage.OnFragmentInteractionListener, SixthAndNinthCommandment_Married_People_Page.OnFragmentInteractionListener,
-        TheSeventhAndTenthCommandmentsPAge.OnFragmentInteractionListener, TheEighthCommandmentPage.OnFragmentInteractionListener
+        TheSeventhAndTenthCommandmentsPAge.OnFragmentInteractionListener, TheEighthCommandmentPage.OnFragmentInteractionListener,
+        PrepPrayerStationPage.OnFragmentInteractionListener, RealFirstStationPage.OnFragmentInteractionListener,
+        SecondStationPage.OnFragmentInteractionListener, ThirdStationPage.OnFragmentInteractionListener,
+        FourthStationPage.OnFragmentInteractionListener, FifthStationPage.OnFragmentInteractionListener,
+        SixthStationPage.OnFragmentInteractionListener, SeventhStationPage.OnFragmentInteractionListener,
+        EighthStationPage.OnFragmentInteractionListener, NinthStationPage.OnFragmentInteractionListener,
+        TenthStationPage.OnFragmentInteractionListener, TheEleventhStationPage.OnFragmentInteractionListener,
+        TwelfthStationPage.OnFragmentInteractionListener, ThirteenthStationPage.OnFragmentInteractionListener,
+        FourteenthStationPage.OnFragmentInteractionListener
 
 
 
