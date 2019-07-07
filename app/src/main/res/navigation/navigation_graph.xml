@@ -20,7 +20,7 @@
             app:destination="@+id/englishOrMalRosaryPage" />
         <action
             android:id="@+id/mainToHours"
-            app:destination="@id/liturgyoftheHours" />
+            app:destination="@+id/litEnglishMalPage" />
         <action
             android:id="@+id/main_to_Map"
             app:destination="@id/mapsActivity" />
@@ -639,4 +639,13 @@
         android:name="com.ebookfrenzy.sampleimagebutton.FourteenthStationPage"
         android:label="fragment_fourteenth_station_page"
         tools:layout="@layout/fragment_fourteenth_station_page" />
+    <fragment
+        android:id="@+id/litEnglishMalPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.LitEnglishMalPage"
+        android:label="fragment_lit_english_mal_page"
+        tools:layout="@layout/fragment_lit_english_mal_page" >
+        <action
+            android:id="@+id/action_litEnglishMalPage_to_liturgyoftheHours"
+            app:destination="@id/liturgyoftheHours" />
+    </fragment>
 </navigation>
