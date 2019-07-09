@@ -57,7 +57,8 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
         EighthStationPage.OnFragmentInteractionListener, NinthStationPage.OnFragmentInteractionListener,
         TenthStationPage.OnFragmentInteractionListener, TheEleventhStationPage.OnFragmentInteractionListener,
         TwelfthStationPage.OnFragmentInteractionListener, ThirteenthStationPage.OnFragmentInteractionListener,
-        FourteenthStationPage.OnFragmentInteractionListener, LitEnglishMalPage.OnFragmentInteractionListener
+        FourteenthStationPage.OnFragmentInteractionListener, LitEnglishMalPage.OnFragmentInteractionListener,
+        EnglishOrMalConfessPage.OnFragmentInteractionListener
 
 
 

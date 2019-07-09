@@ -26,7 +26,7 @@
             app:destination="@id/mapsActivity" />
         <action
             android:id="@+id/mainToConfess"
-            app:destination="@id/confessPage" />
+            app:destination="@+id/englishOrMalConfessPage" />
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
@@ -647,5 +647,14 @@
         <action
             android:id="@+id/action_litEnglishMalPage_to_liturgyoftheHours"
             app:destination="@id/liturgyoftheHours" />
+    </fragment>
+    <fragment
+        android:id="@+id/englishOrMalConfessPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.EnglishOrMalConfessPage"
+        android:label="fragment_english_or_mal_confess_page"
+        tools:layout="@layout/fragment_english_or_mal_confess_page" >
+        <action
+            android:id="@+id/action_englishOrMalConfessPage_to_confessPage"
+            app:destination="@id/confessPage" />
     </fragment>
 </navigation>

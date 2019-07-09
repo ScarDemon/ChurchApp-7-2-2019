@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TheSeventhAndTenthCommandmentsPAge"
     android:background="@drawable/symbol">
-
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/title"
@@ -176,7 +178,7 @@
     <TextView
         android:id="@+id/textView154"
         android:layout_width="279dp"
-        android:layout_height="38dp"
+        android:layout_height="116dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="\u2022 Was I greedy?  Do I have an excessively materialistic view of life?"
@@ -186,5 +188,5 @@
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView153" />
-
 </android.support.constraint.ConstraintLayout>
+</ScrollView>
