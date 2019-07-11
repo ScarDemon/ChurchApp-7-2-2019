@@ -90,8 +90,8 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="192dp"
-            android:layout_height="31dp"
+            android:layout_width="201dp"
+            android:layout_height="51dp"
             android:layout_marginStart="1dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="8dp"
@@ -170,8 +170,8 @@
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="215dp"
-            android:layout_height="210dp"
+            android:layout_width="227dp"
+            android:layout_height="242dp"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="8dp"
             android:text="@string/oh_my_buried_jesus_i_kiss_the_stone_that_closes_you_in_but_you_gloriously_did_rise_again_on_the_third_day_i_beg_you_by_your_resucrrection_that_i_may_be_raised_gloriously_on_the_last_day_to_be_united_with_you_in_heaven_to_praise_you_and_love_you_forever_i_love_you_jesus_and_i_repent_of_ever_having_offended_you_grant_that_i_may_love_you_always_and_then_do_with_me_as_you_will"
@@ -183,8 +183,8 @@
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="212dp"
-            android:layout_height="26dp"
+            android:layout_width="241dp"
+            android:layout_height="52dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="8dp"

@@ -52,8 +52,8 @@
 
     <TextView
         android:id="@+id/textView25"
-        android:layout_width="297dp"
-        android:layout_height="156dp"
+        android:layout_width="298dp"
+        android:layout_height="168dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="I believe in Jesus Christ, his only Son, our Lord.  He was conceived by the power of the Holy Spirit and born of the Virgin Mary.  He Suffered under Pontius Pilate, was crucifed, died, and was buried.  He descended into hell.  On the thrid day he rose again.  He ascended into heaven, and is seated at the right hand of the Father.  He will come again to judge the living and the dead."

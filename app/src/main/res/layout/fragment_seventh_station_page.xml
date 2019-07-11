@@ -90,8 +90,8 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="192dp"
-            android:layout_height="31dp"
+            android:layout_width="196dp"
+            android:layout_height="63dp"
             android:layout_marginStart="1dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="8dp"
@@ -131,10 +131,9 @@
 
         <TextView
             android:id="@+id/textView14"
-            android:layout_width="256dp"
-            android:layout_height="73dp"
+            android:layout_width="275dp"
+            android:layout_height="121dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
             android:layout_marginEnd="61dp"
             android:text="@string/consider_how_the_second_fall_of_jesus_under_his_cross_renews_the_pain_in_all_the_wounds_of_the_head_and_the_members_of_the_afdlicted_lord"
             android:textColor="#000"
@@ -170,8 +169,8 @@
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="246dp"
-            android:layout_height="243dp"
+            android:layout_width="243dp"
+            android:layout_height="292dp"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="8dp"
             android:text="@string/my_most_beloved_jesus_how_many_times_you_have_forgiven_me_and_how_many_times_i_have_fallen_again_and_begun_again_to_offend_you_by_the_merits_of_the_second_fall_give_me_the_grace_to_persevere_in_your_love_until_death_grant_that_in_all_my_temptations_i_may_always_have_recourse_to_you_i_love_you_jesus_my_love_with_all_my_heart_i_am_sorry_that_i_have_offended_you_never_let_me_offend_you_again_grant_that_i_may_love_you_always_and_then_do_with_me_as_you_will"
@@ -183,8 +182,8 @@
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="212dp"
-            android:layout_height="26dp"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="8dp"

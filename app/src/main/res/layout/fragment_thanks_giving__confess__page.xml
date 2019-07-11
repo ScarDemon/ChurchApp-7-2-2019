@@ -10,12 +10,13 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/title"
-        android:layout_width="203dp"
-        android:layout_height="31dp"
+        android:layout_width="242dp"
+        android:layout_height="32dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:text="Thanksgiving after Confession"
+        android:textAlignment="center"
         android:textColor="#000"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"

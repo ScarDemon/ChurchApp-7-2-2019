@@ -12,8 +12,8 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/title"
-        android:layout_width="313dp"
-        android:layout_height="28dp"
+        android:layout_width="344dp"
+        android:layout_height="40dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="@string/the_first_station_pilate_condemnes_jesus_to_die"
@@ -89,8 +89,8 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="192dp"
-        android:layout_height="31dp"
+        android:layout_width="219dp"
+        android:layout_height="66dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="8dp"
@@ -104,15 +104,14 @@
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="24dp"
         android:layout_marginStart="-1dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="40dp"
         android:text="@string/rise"
         android:textColor="#D10606"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="@+id/textView11" />
 
@@ -169,8 +168,8 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="240dp"
-        android:layout_height="191dp"
+        android:layout_width="241dp"
+        android:layout_height="222dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
@@ -183,8 +182,8 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="212dp"
-        android:layout_height="26dp"
+        android:layout_width="219dp"
+        android:layout_height="46dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"

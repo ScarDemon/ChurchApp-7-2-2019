@@ -35,8 +35,8 @@
 
     <TextView
         android:id="@+id/textView74"
-        android:layout_width="97dp"
-        android:layout_height="23dp"
+        android:layout_width="118dp"
+        android:layout_height="31dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
@@ -49,16 +49,16 @@
 
     <TextView
         android:id="@+id/textView75"
-        android:layout_width="228dp"
-        android:layout_height="140dp"
+        android:layout_width="237dp"
+        android:layout_height="182dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:text=" And He led them out as far as Bethany, and He lifted up His hands and blessed them. While He was blessing them, He parted from them and was carried up into heaven. And they, after worshiping Him, returned to Jerusalem with great joy"
         android:textColor="#000"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView74" />
 
