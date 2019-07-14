@@ -90,8 +90,8 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="192dp"
-            android:layout_height="31dp"
+            android:layout_width="189dp"
+            android:layout_height="51dp"
             android:layout_marginStart="1dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="8dp"
@@ -131,10 +131,9 @@
 
         <TextView
             android:id="@+id/textView14"
-            android:layout_width="254dp"
-            android:layout_height="124dp"
+            android:layout_width="261dp"
+            android:layout_height="161dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
             android:layout_marginEnd="61dp"
             android:text="@string/consider_how_weak_and_weary_jesus_was_at_each_step_he_was_at_the_point_of_expiring_fearing_that_he_would_die_on_the_way_when_they_wished_him_to_die_the_infamous_death_on_the_cross_they_forced_simon_of_cyrene_to_help_carry_the_cross_after_our_lord"
             android:textColor="#000"
@@ -160,8 +159,8 @@
             android:id="@+id/textView16"
             android:layout_width="28dp"
             android:layout_height="21dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="156dp"
             android:text="@string/r"
             android:textColor="#CF0B0B"
             android:textStyle="bold"
@@ -170,8 +169,8 @@
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="246dp"
-            android:layout_height="237dp"
+            android:layout_width="257dp"
+            android:layout_height="271dp"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="8dp"
             android:text="@string/my_beloved_jesus_i_will_not_refuse_the_cross_as_simon_did_i_accept_it_and_embrace_it_i_accept_in_particular_the_death_that_is_destined_for_me_with_all_the_pains_that_may_accompany_it_i_unite_it_to_your_death_and_i_offer_it_to_you_you_have_died_for_love_of_me_i_will_die_for_love_of_you_and_to_please_you_help_me_by_your_grace_i_love_you_jesus_my_love_i_repent_of_ever_having_offended_you_never_let_me_offend_you_again_grant_that_i_may_love_you_always_and_then_do_with_me_as_you_will"
@@ -183,8 +182,8 @@
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="212dp"
-            android:layout_height="26dp"
+            android:layout_width="239dp"
+            android:layout_height="43dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"

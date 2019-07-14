@@ -103,6 +103,13 @@ public class MainFragment extends Fragment {
         });
     }
 
+    public void linkToWebsite(View view) {
+        Intent link = new Intent(Intent.ACTION_VIEW);
+        link.setData(Uri.parse("https://stthomascatholic.church"));
+        startActivity(link);
+    }
+
+
 
 
 }

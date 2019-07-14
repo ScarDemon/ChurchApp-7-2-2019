@@ -77,8 +77,15 @@ Stations of the Cross/കുരിശിന്റെ സ്റ്റേഷനു
     <string name="malayalam">Malayalam</string>
     <string name="liturgy_of_the_hours">Liturgy of the Hours</string>
     <string name="prayers_for_the_sacrament_of_penance">Prayers for the Sacrament of Penance</string>
-    <string name="prayer_of_the_sacrement_of_confession">Prayer of the Sacrement of Confession</string>
-    <string name="malaylam">malaylam</string>
-
+    <string name="prayer_of_the_sacrement_of_confession">Prayer of the Sacrament of Confession</string>
+    <string name="malaylam">Malayalam</string>
+    <string name="welcome_to_st_thomas_malankara_catholic_parish">Welcome to St. Thomas Malankara Catholic Parish</string>
+    <string name="website">Website/വെബ്സൈറ്റ്</string>
+    <string name="contact_us">Contact Us/ഞങ്ങളെ സമീപിക്കുക</string>
+    <string name="rosary">Rosary/റോസറി</string>
+    <string name="prayers_of_the_sacrament_of_confession">Prayers of the Sacrament of Confession</string>
+    <string name="locations_of_the_parishes">Locations of the Parishes</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 
 </resources>

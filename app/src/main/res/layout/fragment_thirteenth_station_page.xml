@@ -90,8 +90,8 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="192dp"
-            android:layout_height="31dp"
+            android:layout_width="193dp"
+            android:layout_height="46dp"
             android:layout_marginStart="1dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="8dp"
@@ -131,8 +131,8 @@
 
         <TextView
             android:id="@+id/textView14"
-            android:layout_width="235dp"
-            android:layout_height="144dp"
+            android:layout_width="237dp"
+            android:layout_height="181dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="61dp"
@@ -170,8 +170,8 @@
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="217dp"
-            android:layout_height="205dp"
+            android:layout_width="227dp"
+            android:layout_height="248dp"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="8dp"
             android:text="O Mother of Sorrows, / for the love of Your Son, / accept me as Your servant and pray to Him for me, / And You, my Redeemer, since you have died for me, / allow me to love You, / for I desire only You and nothing more. / I love You, Jesus my Love, / and I am sorry that I have offended You. / Never let me offend You again. / Grant that I may love You always; and then do with me as You will."
@@ -183,8 +183,8 @@
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="212dp"
-            android:layout_height="26dp"
+            android:layout_width="216dp"
+            android:layout_height="40dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"

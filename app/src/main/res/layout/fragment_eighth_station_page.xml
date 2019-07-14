@@ -90,8 +90,8 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="192dp"
-            android:layout_height="31dp"
+            android:layout_width="204dp"
+            android:layout_height="56dp"
             android:layout_marginStart="1dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="8dp"
@@ -170,8 +170,8 @@
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="230dp"
-            android:layout_height="267dp"
+            android:layout_width="231dp"
+            android:layout_height="295dp"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="8dp"
             android:text="@string/my_jesus_laden_with_sorrows_i_weep_for_the_sins_which_i_have_commited_aganist_you_because_of_the_punishment_i_deserve_for_them_and_still_more_because_of_the_displeasure_they_have_caused_you_who_have_loved_me_with_an_infinite_love_it_is_your_love_more_than_the_fear_of_hell_which_makes_me_weep_for_my_sins_my_jesus_i_love_you_more_than_myself_i_am_sorry_that_i_have_offended_you_never_allow_me_to_offend_you_again_grant_that_i_may_love_you_always_and_then_do_with_as_you_will"
@@ -183,8 +183,8 @@
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="212dp"
-            android:layout_height="26dp"
+            android:layout_width="218dp"
+            android:layout_height="46dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="8dp"

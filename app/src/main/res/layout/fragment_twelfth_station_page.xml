@@ -90,8 +90,8 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="192dp"
-            android:layout_height="31dp"
+            android:layout_width="222dp"
+            android:layout_height="52dp"
             android:layout_marginStart="1dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="8dp"
@@ -170,8 +170,8 @@
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="233dp"
-            android:layout_height="241dp"
+            android:layout_width="234dp"
+            android:layout_height="277dp"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="8dp"
             android:text="@string/my_dying_jesus_i_devoutly_kiss_the_cross_on_which_you_would_die_for_love_of_me_i_deserve_because_of_my_sins_to_die_a_terrible_death_but_your_death_is_my_hope_by_the_merits_of_your_death_give_me_the_grace_to_die_embracing_your_feet_and_burning_with_love_of_you_i_yield_my_soul_into_your_hands_i_love_you_with_my_whole_heart_i_am_sorry_that_i_have_offended_you_never_let_me_offend_you_again_grant_that_i_may_love_you_always_and_then_do_with_me_as_you_will"
@@ -183,8 +183,8 @@
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="212dp"
-            android:layout_height="26dp"
+            android:layout_width="220dp"
+            android:layout_height="37dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="8dp"

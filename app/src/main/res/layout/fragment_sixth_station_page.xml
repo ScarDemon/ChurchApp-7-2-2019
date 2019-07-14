@@ -90,8 +90,8 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="192dp"
-            android:layout_height="31dp"
+            android:layout_width="210dp"
+            android:layout_height="54dp"
             android:layout_marginStart="1dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="8dp"
@@ -170,8 +170,8 @@
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="234dp"
-            android:layout_height="204dp"
+            android:layout_width="232dp"
+            android:layout_height="239dp"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="8dp"
             android:text="@string/my_beloved_jesus_your_face_was_beautiful_before_you_began_this_journey_but_now_it_no_longer_appears_beautiful_and_is_disfigured_with_wounds_and_blood_atlas_my_soul_also_was_once_beautiful_when_it_received_your_grace_in_baptism_but_i_have_since_disfigured_it_with_my_sins_you_alone_my_redeemer_can_restore_it_to_its_former_beauty_do_this_by_the_merits_of_your_passion_and_then_do_with_me_as_you_will"
@@ -183,8 +183,8 @@
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="212dp"
-            android:layout_height="26dp"
+            android:layout_width="210dp"
+            android:layout_height="45dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="8dp"

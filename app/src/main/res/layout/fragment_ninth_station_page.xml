@@ -90,8 +90,8 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="192dp"
-            android:layout_height="31dp"
+            android:layout_width="189dp"
+            android:layout_height="39dp"
             android:layout_marginStart="1dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="8dp"
@@ -132,7 +132,7 @@
         <TextView
             android:id="@+id/textView14"
             android:layout_width="252dp"
-            android:layout_height="109dp"
+            android:layout_height="122dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="61dp"
@@ -170,8 +170,8 @@
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="234dp"
-            android:layout_height="204dp"
+            android:layout_width="237dp"
+            android:layout_height="239dp"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="8dp"
             android:text="@string/my_outraged_jesus_by_the_weakness_you_have_suffered_in_going_to_calvary_give_me_enough_strength_to_overcome_all_human_respect_and_all_my_evil_passions_which_have_led_me_to_despise_your_friendship_i_love_you_jesus_my_love_with_all_my_heartl_i_am_sorry_for_every_having_offended_you_never_permit_me_to_offend_you_again_grant_that_i_may_love_you_always_and_then_do_with_me_as_you_will"
@@ -183,8 +183,8 @@
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="212dp"
-            android:layout_height="26dp"
+            android:layout_width="210dp"
+            android:layout_height="47dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="8dp"

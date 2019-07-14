@@ -1,10 +1,13 @@
 package com.ebookfrenzy.sampleimagebutton;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 // import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View.OnClickListener;
 import android.view.View;
 import android.widget.Button;
@@ -17,6 +20,15 @@ import android.text.Html;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.NavigationUI;
+import androidx.navigation.*;
+import android.support.design.widget.NavigationView;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.ui.AppBarConfiguration.Builder;
+import android.support.v4.widget.DrawerLayout;
+
+
 
 
 public class MainActivity extends AppCompatActivity implements secondFragment.
@@ -62,15 +74,36 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
 
 
 
+
 {
+
+    private DrawerLayout mDrawerLayout;
+    private ActionBarDrawerToggle mToggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.container);
+        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
+        mDrawerLayout.addDrawerListener(mToggle);
+        mToggle.syncState();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        
+
         }
+
+        public boolean onOptionsSelected (MenuItem item) {
+        if (mToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
+        return super.onContextItemSelected(item);
+        }
+
         public void onFragmentInteraction(Uri uri) {
+
+
         }
     public void linkToWebsite(View view) {
         Intent link = new Intent(Intent.ACTION_VIEW);
