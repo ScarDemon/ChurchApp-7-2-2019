@@ -40,6 +40,7 @@ android:largeScreens="true"
             android:name=".MapsActivity"
             android:label="Locations"></activity>
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

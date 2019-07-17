@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    >
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
 <item android:id="@+id/Home" android:title="Home" />
     <item android:id="@+id/liturgyoftheHours" android:title="@string/liturgy_of_the_hours" android:icon="@drawable/ic_hourglass"/>
     <item android:id="@+id/rosary" android:title="@string/rosary" android:icon="@drawable/rosary" />

@@ -85,8 +85,8 @@
 
         <TextView
             android:id="@+id/textView36"
-            android:layout_width="211dp"
-            android:layout_height="92dp"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
             android:text="God the Father of Heaven, \nGod the Son, Redeemer of the world, \n God the Holy Ghost, \n Holy Trinity, one God, \n"

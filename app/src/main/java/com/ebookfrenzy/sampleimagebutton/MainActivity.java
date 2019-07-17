@@ -1,8 +1,10 @@
 package com.ebookfrenzy.sampleimagebutton;
 
 import android.app.ActionBar;
+import android.support.v4.view.GravityCompat;
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v7.widget.Toolbar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 // import android.support.v4.app.FragmentActivity;
@@ -31,20 +33,19 @@ import android.support.v4.widget.DrawerLayout;
 
 
 
+
 public class MainActivity extends AppCompatActivity implements secondFragment.
         OnFragmentInteractionListener, firstStationPage.OnFragmentInteractionListener,
         thridFragment.OnFragmentInteractionListener, fourthFragment.OnFragmentInteractionListener,
         openingPrayerFragment.OnFragmentInteractionListener,
         LiturgyoftheHours.OnFragmentInteractionListener, ConfessPage.OnFragmentInteractionListener,
-        LordPrayerPage.OnFragmentInteractionListener, QaumoPage.OnFragmentInteractionListener,
-        InitialPrayersPage.OnFragmentInteractionListener, HailMaryPage.OnFragmentInteractionListener,
         EnglishOrMalRosaryPage.OnFragmentInteractionListener, MalaylamRosaryPage.OnFragmentInteractionListener,
         SignOfCrossPage.OnFragmentInteractionListener, ApostlesCreedPage.OnFragmentInteractionListener,
         MysteriesPage.OnFragmentInteractionListener, LitanyPage.OnFragmentInteractionListener,
         HailHolyQueenPage.OnFragmentInteractionListener, MemorarePage.OnFragmentInteractionListener,
         JoyfulMysteryPage.OnFragmentInteractionListener, SorrowfulMysteryPage.OnFragmentInteractionListener,
         LuminousMysteriesPage.OnFragmentInteractionListener, GloriousMysteriesPage.OnFragmentInteractionListener,
-        GloryBePage.OnFragmentInteractionListener, TheAnnuciationPage.OnFragmentInteractionListener, TheVisitationPage.OnFragmentInteractionListener,
+      TheAnnuciationPage.OnFragmentInteractionListener, TheVisitationPage.OnFragmentInteractionListener,
         TheNavitiyPage.OnFragmentInteractionListener, ThePresenationPage.OnFragmentInteractionListener,
         JesusChildPage.OnFragmentInteractionListener, TheBaptismPage.OnFragmentInteractionListener, TheManifestationPage.OnFragmentInteractionListener,
         TheProclamationPage.OnFragmentInteractionListener, TheTransPage.OnFragmentInteractionListener,
@@ -54,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
         TheAgonyPage.OnFragmentInteractionListener, TheSPillarPage.OnFragmentInteractionListener,
         TheCThorns.OnFragmentInteractionListener, TheCarryCrossPage.OnFragmentInteractionListener,
         TheCrucifixationPage.OnFragmentInteractionListener, PreparationPage.OnFragmentInteractionListener,
-        Examination_Conscience_Page.OnFragmentInteractionListener, Maw_Prayer_Page.OnFragmentInteractionListener,
+        Examination_Conscience_Page.OnFragmentInteractionListener,
         Prayer_Repentance_Page.OnFragmentInteractionListener, Act_Of_Contrition_Page.OnFragmentInteractionListener,
         ThanksGiving_Confess_Page.OnFragmentInteractionListener, Prayer_To_Holy_Spirit_Page.OnFragmentInteractionListener,
         FirstCommandmentPage.OnFragmentInteractionListener, TheSecondCommandmentPage.OnFragmentInteractionListener,
@@ -77,26 +78,47 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
 
 {
 
+
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.container);
-        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
+        mDrawerLayout = findViewById(R.id.container);
+        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout,  R.string.open, R.string.close);
         mDrawerLayout.addDrawerListener(mToggle);
         mToggle.syncState();
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        
+        getSupportActionBar().setHomeButtonEnabled(true);
 
         }
 
+
+
+
+
+
+  @Override
+    public void onBackPressed() {
+        if (mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
+            mDrawerLayout.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
         public boolean onOptionsSelected (MenuItem item) {
-        if (mToggle.onOptionsItemSelected(item)) {
-            return true;
+
+
+        switch (item.getItemId())
+        {
+            case android.R.id.home:
+                mDrawerLayout.openDrawer(GravityCompat.START);
         }
         return super.onContextItemSelected(item);
         }

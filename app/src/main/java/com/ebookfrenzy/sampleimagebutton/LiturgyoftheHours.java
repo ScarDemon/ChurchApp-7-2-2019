@@ -80,60 +80,15 @@ public class LiturgyoftheHours extends Fragment {
         mViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
         // TODO: Use the ViewModel
 
-        Button button = getView().findViewById(R.id.Initial);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                LiturgyoftheHoursDirections.LitToIn action = LiturgyoftheHoursDirections.litToIn();
-
-
-
-                Navigation.findNavController(view).navigate(action);
 
 
             }
-        });
 
-        Button button2 = getView().findViewById(R.id.Quamo);
-        button2.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                LiturgyoftheHoursDirections.LitToQ action = LiturgyoftheHoursDirections.litToQ();
 
-                Navigation.findNavController(view).navigate(action);
-            }
-            });
 
-        Button button3 = getView().findViewById(R.id.LordPrayer);
-        button3.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                LiturgyoftheHoursDirections.LitToLord action = LiturgyoftheHoursDirections.LitToLord();
 
-                Navigation.findNavController(view).navigate(action);
-            }
-        });
 
-        Button button4 = getView().findViewById(R.id.HailMary);
-        button4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                LiturgyoftheHoursDirections.LitToMary action = LiturgyoftheHoursDirections.LitToMary();
-
-                Navigation.findNavController(v).navigate(action);
-            }
-        });
-
-        Button button5 = getView().findViewById(R.id.GloryBe);
-        button5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                LiturgyoftheHoursDirections.ActionLiturgyoftheHoursToGloryBePage action
-                        = LiturgyoftheHoursDirections.actionLiturgyoftheHoursToGloryBePage();
-
-                Navigation.findNavController(v).navigate(action);
-            }
-        });
-    }
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
