@@ -1,12 +1,17 @@
 package com.ebookfrenzy.sampleimagebutton;
 
+import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+
+import androidx.navigation.Navigation;
 
 
 /**
@@ -26,6 +31,7 @@ public class TheAgonyPage extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private MainViewModel mViewModel;
 
     private OnFragmentInteractionListener mListener;
 
@@ -83,6 +89,33 @@ public class TheAgonyPage extends Fragment {
             throw new RuntimeException(context.toString()
                     + " must implement OnFragmentInteractionListener");
         }
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
+        // TODO: Use the ViewModel
+
+        ImageButton button = getView().findViewById(R.id.leftAgonyArrow);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                TheAgonyPageDirections.ActionTheAgonyPageToSorrowfulMysteryPage action =
+                        TheAgonyPageDirections.actionTheAgonyPageToSorrowfulMysteryPage();
+                Navigation.findNavController(view).navigate(action);
+            }
+        });
+
+        ImageButton button2 = getView().findViewById(R.id.rightAgonyArrow);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TheAgonyPageDirections.ActionTheAgonyPageToTheSPillarPage action =
+                        TheAgonyPageDirections.actionTheAgonyPageToTheSPillarPage();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
     }
 
     @Override
