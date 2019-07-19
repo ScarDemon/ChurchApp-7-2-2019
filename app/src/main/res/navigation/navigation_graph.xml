@@ -204,12 +204,23 @@
         android:id="@+id/signOfCrossPage"
         android:name="com.ebookfrenzy.sampleimagebutton.SignOfCrossPage"
         android:label="fragment_sign_of_cross_page"
-        tools:layout="@layout/fragment_sign_of_cross_page" />
+        tools:layout="@layout/fragment_sign_of_cross_page" >
+        <action
+            android:id="@+id/action_signOfCrossPage_to_apostlesCreedPage"
+            app:destination="@id/apostlesCreedPage" />
+    </fragment>
     <fragment
         android:id="@+id/apostlesCreedPage"
         android:name="com.ebookfrenzy.sampleimagebutton.ApostlesCreedPage"
         android:label="fragment_apostles_creed_page"
-        tools:layout="@layout/fragment_apostles_creed_page" />
+        tools:layout="@layout/fragment_apostles_creed_page" >
+        <action
+            android:id="@+id/action_apostlesCreedPage_to_signOfCrossPage"
+            app:destination="@id/signOfCrossPage" />
+        <action
+            android:id="@+id/action_apostlesCreedPage_to_mysteriesPage"
+            app:destination="@id/mysteriesPage" />
+    </fragment>
     <fragment
         android:id="@+id/mysteriesPage"
         android:name="com.ebookfrenzy.sampleimagebutton.MysteriesPage"
@@ -227,12 +238,25 @@
         <action
             android:id="@+id/action_mysteriesPage_to_luminousMysteriesPage"
             app:destination="@id/luminousMysteriesPage" />
+        <action
+            android:id="@+id/action_mysteriesPage_to_apostlesCreedPage"
+            app:destination="@id/apostlesCreedPage" />
+        <action
+            android:id="@+id/action_mysteriesPage_to_hailHolyQueenPage"
+            app:destination="@id/hailHolyQueenPage" />
     </fragment>
     <fragment
         android:id="@+id/hailHolyQueenPage"
         android:name="com.ebookfrenzy.sampleimagebutton.HailHolyQueenPage"
         android:label="fragment_hail_holy_queen_page"
-        tools:layout="@layout/fragment_hail_holy_queen_page" />
+        tools:layout="@layout/fragment_hail_holy_queen_page" >
+        <action
+            android:id="@+id/action_hailHolyQueenPage_to_mysteriesPage"
+            app:destination="@id/mysteriesPage" />
+        <action
+            android:id="@+id/action_hailHolyQueenPage_to_litanyPage"
+            app:destination="@id/litanyPage" />
+    </fragment>
     <fragment
         android:id="@+id/litanyPage"
         android:name="com.ebookfrenzy.sampleimagebutton.LitanyPage"

@@ -1,12 +1,16 @@
 package com.ebookfrenzy.sampleimagebutton;
 
+import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import androidx.navigation.Navigation;
 
 
 /**
@@ -24,6 +28,7 @@ public class SignOfCrossPage extends Fragment {
     private static final String ARG_PARAM2 = "param2";
 
     // TODO: Rename and change types of parameters
+    private MainViewModel mViewModel;
     private String mParam1;
     private String mParam2;
 
@@ -90,7 +95,23 @@ public class SignOfCrossPage extends Fragment {
         super.onDetach();
         mListener = null;
     }
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
+        // TODO: Use the ViewModel
 
+        ImageButton button = getView().findViewById(R.id.signRight);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                SignOfCrossPageDirections.ActionSignOfCrossPageToApostlesCreedPage action =
+                SignOfCrossPageDirections.actionSignOfCrossPageToApostlesCreedPage();
+                Navigation.findNavController(view).navigate(action);
+            }
+        });
+
+    }
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
@@ -105,4 +126,5 @@ public class SignOfCrossPage extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
 }

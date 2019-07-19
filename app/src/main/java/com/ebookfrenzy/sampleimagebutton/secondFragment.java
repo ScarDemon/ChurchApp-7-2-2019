@@ -145,7 +145,7 @@ public class secondFragment extends Fragment {
 
 
     public void onStart() {
-        super.onStart();
+
        // TextView argText = getView().findViewById(R.id.firstStation);
         // TextView argText2 = getView().findViewById(R.id.argText2);
         //argText.setText(message);
