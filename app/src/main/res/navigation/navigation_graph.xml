@@ -394,27 +394,62 @@
         android:id="@+id/theAnnuciationPage"
         android:name="com.ebookfrenzy.sampleimagebutton.TheAnnuciationPage"
         android:label="fragment_the_annuciation_page"
-        tools:layout="@layout/fragment_the_annuciation_page" />
+        tools:layout="@layout/fragment_the_annuciation_page" >
+        <action
+            android:id="@+id/action_theAnnuciationPage_to_joyfulMysteryPage"
+            app:destination="@id/joyfulMysteryPage" />
+        <action
+            android:id="@+id/action_theAnnuciationPage_to_theVisitationPage"
+            app:destination="@id/theVisitationPage" />
+    </fragment>
     <fragment
         android:id="@+id/theVisitationPage"
         android:name="com.ebookfrenzy.sampleimagebutton.TheVisitationPage"
         android:label="fragment_the_visitation_page"
-        tools:layout="@layout/fragment_the_visitation_page" />
+        tools:layout="@layout/fragment_the_visitation_page" >
+        <action
+            android:id="@+id/action_theVisitationPage_to_theAnnuciationPage"
+            app:destination="@id/theAnnuciationPage" />
+        <action
+            android:id="@+id/action_theVisitationPage_to_theNavitiyPage"
+            app:destination="@id/theNavitiyPage" />
+    </fragment>
     <fragment
         android:id="@+id/theNavitiyPage"
         android:name="com.ebookfrenzy.sampleimagebutton.TheNavitiyPage"
         android:label="fragment_the_navitiy_page"
-        tools:layout="@layout/fragment_the_navitiy_page" />
+        tools:layout="@layout/fragment_the_navitiy_page" >
+        <action
+            android:id="@+id/action_theNavitiyPage_to_theVisitationPage"
+            app:destination="@id/theVisitationPage" />
+        <action
+            android:id="@+id/action_theNavitiyPage_to_thePresenationPage"
+            app:destination="@id/thePresenationPage" />
+    </fragment>
     <fragment
         android:id="@+id/thePresenationPage"
         android:name="com.ebookfrenzy.sampleimagebutton.ThePresenationPage"
         android:label="fragment_the_presenation_page"
-        tools:layout="@layout/fragment_the_presenation_page" />
+        tools:layout="@layout/fragment_the_presenation_page" >
+        <action
+            android:id="@+id/action_thePresenationPage_to_theNavitiyPage"
+            app:destination="@id/theNavitiyPage" />
+        <action
+            android:id="@+id/action_thePresenationPage_to_jesusChildPage"
+            app:destination="@id/jesusChildPage" />
+    </fragment>
     <fragment
         android:id="@+id/jesusChildPage"
         android:name="com.ebookfrenzy.sampleimagebutton.JesusChildPage"
         android:label="fragment_jesus_child_page"
-        tools:layout="@layout/fragment_jesus_child_page" />
+        tools:layout="@layout/fragment_jesus_child_page" >
+        <action
+            android:id="@+id/action_jesusChildPage_to_thePresenationPage"
+            app:destination="@id/thePresenationPage" />
+        <action
+            android:id="@+id/action_jesusChildPage_to_joyfulMysteryPage"
+            app:destination="@id/joyfulMysteryPage" />
+    </fragment>
     <fragment
         android:id="@+id/theBaptismPage"
         android:name="com.ebookfrenzy.sampleimagebutton.TheBaptismPage"
