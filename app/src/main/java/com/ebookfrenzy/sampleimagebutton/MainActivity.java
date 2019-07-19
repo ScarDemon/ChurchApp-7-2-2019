@@ -1,6 +1,8 @@
 package com.ebookfrenzy.sampleimagebutton;
 
 import android.app.ActionBar;
+import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.GravityCompat;
 import android.content.Intent;
 import android.net.Uri;
@@ -40,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
         openingPrayerFragment.OnFragmentInteractionListener,
         LiturgyoftheHours.OnFragmentInteractionListener, ConfessPage.OnFragmentInteractionListener,
         EnglishOrMalRosaryPage.OnFragmentInteractionListener, MalaylamRosaryPage.OnFragmentInteractionListener,
-        SignOfCrossPage.OnFragmentInteractionListener, ApostlesCreedPage.OnFragmentInteractionListener,
+         ApostlesCreedPage.OnFragmentInteractionListener,
         MysteriesPage.OnFragmentInteractionListener, LitanyPage.OnFragmentInteractionListener,
         HailHolyQueenPage.OnFragmentInteractionListener, MemorarePage.OnFragmentInteractionListener,
         JoyfulMysteryPage.OnFragmentInteractionListener, SorrowfulMysteryPage.OnFragmentInteractionListener,
@@ -71,10 +73,7 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
         TenthStationPage.OnFragmentInteractionListener, TheEleventhStationPage.OnFragmentInteractionListener,
         TwelfthStationPage.OnFragmentInteractionListener, ThirteenthStationPage.OnFragmentInteractionListener,
         FourteenthStationPage.OnFragmentInteractionListener, LitEnglishMalPage.OnFragmentInteractionListener,
-        EnglishOrMalConfessPage.OnFragmentInteractionListener
-
-
-
+        EnglishOrMalConfessPage.OnFragmentInteractionListener, SignOfCrossPage.OnFragmentInteractionListener
 
 {
 
@@ -97,7 +96,6 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
         getSupportActionBar().setHomeButtonEnabled(true);
 
         }
-
 
 
 

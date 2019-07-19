@@ -5,12 +5,13 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-
+import android.widget.ImageButton;
 import androidx.navigation.Navigation;
 
 
@@ -140,6 +141,25 @@ public class MysteriesPage extends Fragment {
                 MysteriesPageDirections.ActionMysteriesPageToSorrowfulMysteryPage action =
                         MysteriesPageDirections.actionMysteriesPageToSorrowfulMysteryPage();
 
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+        ImageButton button5 = getView().findViewById(R.id.mysteryArrowLeft);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MysteriesPageDirections.ActionMysteriesPageToApostlesCreedPage action =
+                        MysteriesPageDirections.actionMysteriesPageToApostlesCreedPage();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+
+        ImageButton button6 = getView().findViewById(R.id.mysteryArrowRight);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MysteriesPageDirections.ActionMysteriesPageToHailHolyQueenPage action =
+                        MysteriesPageDirections.actionMysteriesPageToHailHolyQueenPage();
                 Navigation.findNavController(v).navigate(action);
             }
         });
