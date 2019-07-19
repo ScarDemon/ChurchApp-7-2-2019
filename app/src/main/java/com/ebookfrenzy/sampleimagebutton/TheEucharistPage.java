@@ -1,12 +1,17 @@
 package com.ebookfrenzy.sampleimagebutton;
 
+import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+
+import androidx.navigation.Navigation;
 
 
 /**
@@ -26,6 +31,7 @@ public class TheEucharistPage extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private MainViewModel mViewModel;
 
     private OnFragmentInteractionListener mListener;
 
@@ -89,6 +95,33 @@ public class TheEucharistPage extends Fragment {
     public void onDetach() {
         super.onDetach();
         mListener = null;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
+        // TODO: Use the ViewModel
+
+        ImageButton button = getView().findViewById(R.id.leftEuchArrow);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                TheEucharistPageDirections.ActionTheEucharistPageToTheTransPage action =
+                        TheEucharistPageDirections.actionTheEucharistPageToTheTransPage();
+                Navigation.findNavController(view).navigate(action);
+            }
+        });
+
+        ImageButton button2 = getView().findViewById(R.id.rightEuchArrow);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TheEucharistPageDirections.ActionTheEucharistPageToLuminousMysteriesPage2 action =
+                        TheEucharistPageDirections.actionTheEucharistPageToLuminousMysteriesPage2();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
     }
 
     /**

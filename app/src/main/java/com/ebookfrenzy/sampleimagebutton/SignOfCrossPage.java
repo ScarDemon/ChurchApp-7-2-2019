@@ -111,6 +111,16 @@ public class SignOfCrossPage extends Fragment {
             }
         });
 
+        ImageButton button2 = getView().findViewById(R.id.SignLeft);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SignOfCrossPageDirections.ActionSignOfCrossPageToFourthFragment action =
+                        SignOfCrossPageDirections.actionSignOfCrossPageToFourthFragment();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+
     }
     /**
      * This interface must be implemented by activities that contain this
