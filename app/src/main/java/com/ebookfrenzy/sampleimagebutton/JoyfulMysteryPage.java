@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.navigation.Navigation;
 
@@ -31,6 +32,7 @@ public class JoyfulMysteryPage extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
 
     private OnFragmentInteractionListener mListener;
 
@@ -174,6 +176,16 @@ public class JoyfulMysteryPage extends Fragment {
                 Navigation.findNavController(view).navigate(action);
 
 
+            }
+        });
+        ImageButton button6 = getView().findViewById(R.id.joyHome);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                JoyfulMysteryPageDirections.ActionJoyfulMysteryPageToMysteriesPage action =
+                        JoyfulMysteryPageDirections.actionJoyfulMysteryPageToMysteriesPage();
+
+                Navigation.findNavController(v).navigate(action);
             }
         });
     }

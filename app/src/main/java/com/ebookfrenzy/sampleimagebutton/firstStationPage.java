@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.navigation.Navigation;
 
@@ -247,6 +248,16 @@ public class firstStationPage extends Fragment {
             public void onClick(View v) {
                 firstStationPageDirections.ActionFirstStationPageToFourteenthStationPage action =
                         firstStationPageDirections.actionFirstStationPageToFourteenthStationPage();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+
+        ImageButton button17 = getView().findViewById(R.id.stationsToHome);
+        button17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                firstStationPageDirections.ActionFirstStationPageToMainFragment2 action =
+                        firstStationPageDirections.actionFirstStationPageToMainFragment2();
                 Navigation.findNavController(v).navigate(action);
             }
         });

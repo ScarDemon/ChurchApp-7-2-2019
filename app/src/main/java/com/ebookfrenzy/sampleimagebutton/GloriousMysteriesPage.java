@@ -2,6 +2,7 @@ package com.ebookfrenzy.sampleimagebutton;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.navigation.Navigation;
 
@@ -147,6 +149,16 @@ public class GloriousMysteriesPage extends Fragment {
             public void onClick(View v) {
                 GloriousMysteriesPageDirections.ActionGloriousMysteriesPageToTheCoronationPage action =
                         GloriousMysteriesPageDirections.actionGloriousMysteriesPageToTheCoronationPage();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+
+        ImageButton button7 = getView().findViewById(R.id.GloHome);
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                GloriousMysteriesPageDirections.ActionGloriousMysteriesPageToMysteriesPage action =
+                        GloriousMysteriesPageDirections.actionGloriousMysteriesPageToMysteriesPage();
                 Navigation.findNavController(v).navigate(action);
             }
         });

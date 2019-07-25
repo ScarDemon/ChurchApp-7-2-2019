@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.navigation.Navigation;
 
@@ -147,6 +148,16 @@ public class LuminousMysteriesPage extends Fragment {
             public void onClick(View v) {
                 LuminousMysteriesPageDirections.ActionToEu action =
                         LuminousMysteriesPageDirections.ActionToEu();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+
+        ImageButton button7 = getView().findViewById(R.id.LumHome);
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LuminousMysteriesPageDirections.ActionLuminousMysteriesPageToMysteriesPage action =
+                        LuminousMysteriesPageDirections.actionLuminousMysteriesPageToMysteriesPage();
                 Navigation.findNavController(v).navigate(action);
             }
         });

@@ -1,8 +1,10 @@
 package com.ebookfrenzy.sampleimagebutton;
 
 import android.app.ActionBar;
+import android.content.res.Configuration;
 import android.support.design.widget.NavigationView;
-import android.support.v4.app.FragmentActivity;
+//import android.support.v4.app.Fragment;
+//import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.GravityCompat;
 import android.content.Intent;
 import android.net.Uri;
@@ -80,6 +82,8 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
 
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
+    private NavigationView nvDrawer;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -87,21 +91,97 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        // Find our drawer view
+        nvDrawer = (NavigationView) findViewById(R.id.nav_view);
+        // Setup drawer view
+        //setupDrawerContent(nvDrawer);
+
+
         mDrawerLayout = findViewById(R.id.container);
         mToggle = new ActionBarDrawerToggle(this, mDrawerLayout,  R.string.open, R.string.close);
-        mDrawerLayout.addDrawerListener(mToggle);
-        mToggle.syncState();
+      mDrawerLayout.addDrawerListener(mToggle);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
+
+     //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+       //getSupportActionBar().setHomeButtonEnabled(true);
 
         }
 
 
+    /*private void setupDrawerContent(NavigationView navigationView) {
+        navigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        selectDrawerItem(menuItem);
+                        return true;
+                    }
+                });
+    }
+    */
+    /*
+    public void selectDrawerItem(MenuItem menuItem) {
+        // Create a new fragment and specify the fragment to show based on nav item clicked
+        Fragment fragment = null;
+        Class fragmentClass;
+        switch(menuItem.getItemId()) {
+            case R.id.Home:
+                fragmentClass = MainFragment.class;
+                break;
+            case R.id.rosary:
+                fragmentClass = EnglishOrMalRosaryPage.class;
+                break;
+            case R.id.stations:
+                fragmentClass = secondFragment.class;
+                break;
+            case R.id.confession:
+                fragmentClass = EnglishOrMalConfessPage.class;;
+            default:
+                fragmentClass = MainFragment.class;
+        }
+
+        try {
+            fragment = (Fragment) fragmentClass.newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        // Insert the fragment by replacing any existing fragment
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+
+        // Highlight the selected item has been done by NavigationView
+        menuItem.setChecked(true);
+        // Set action bar title
+        setTitle(menuItem.getTitle());
+        // Close the navigation drawer
+        mDrawer.closeDrawers();
+    }
+
+*/
+
+    /*
+
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        // Sync the toggle state after onRestoreInstanceState has occurred.
+        mToggle.syncState();
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        // Pass any configuration change to the drawer toggles
+        mToggle.onConfigurationChanged(newConfig);
+    }
+
+*/
 
 
 
-  @Override
+  /*@Override
     public void onBackPressed() {
         if (mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
@@ -109,14 +189,13 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
             super.onBackPressed();
         }
     }
-
+*/
         public boolean onOptionsSelected (MenuItem item) {
 
+        if (mToggle.onOptionsItemSelected(item)) {
 
-        switch (item.getItemId())
-        {
-            case android.R.id.home:
-                mDrawerLayout.openDrawer(GravityCompat.START);
+
+            return true;
         }
         return super.onContextItemSelected(item);
         }

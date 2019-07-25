@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.navigation.Navigation;
 
@@ -148,6 +149,16 @@ public class SorrowfulMysteryPage extends Fragment {
             public void onClick(View v) {
                 SorrowfulMysteryPageDirections.ActionSorrowfulMysteryPageToTheCrucifixationPage action =
                         SorrowfulMysteryPageDirections.actionSorrowfulMysteryPageToTheCrucifixationPage();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+
+        ImageButton button7 = getView().findViewById(R.id.sorrowHome);
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SorrowfulMysteryPageDirections.ActionSorrowfulMysteryPageToMysteriesPage action =
+                        SorrowfulMysteryPageDirections.actionSorrowfulMysteryPageToMysteriesPage();
                 Navigation.findNavController(v).navigate(action);
             }
         });

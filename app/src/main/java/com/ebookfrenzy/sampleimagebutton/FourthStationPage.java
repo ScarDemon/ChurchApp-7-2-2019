@@ -1,12 +1,18 @@
 package com.ebookfrenzy.sampleimagebutton;
 
+import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
+
+import androidx.navigation.Navigation;
 
 
 /**
@@ -26,6 +32,7 @@ public class FourthStationPage extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private MainViewModel mViewModel;
 
     private OnFragmentInteractionListener mListener;
 
@@ -104,5 +111,31 @@ public class FourthStationPage extends Fragment {
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
+    }
+
+
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
+        // TODO: Use the ViewModel
+        ImageButton button2 = getView().findViewById(R.id.FourthToThridStation);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FourthStationPageDirections.ActionFourthStationPageToThirdStationPage action =
+                        FourthStationPageDirections.actionFourthStationPageToThirdStationPage();
+                Navigation.findNavController(view).navigate(action);
+            }
+        });
+
+        ImageButton button3 = getView().findViewById(R.id.FourthtoFifthStation);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FourthStationPageDirections.ActionFourthStationPageToFifthStationPage action =
+                        FourthStationPageDirections.actionFourthStationPageToFifthStationPage();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
     }
 }

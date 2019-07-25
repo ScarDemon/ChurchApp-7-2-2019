@@ -97,8 +97,8 @@
 
                 <TextView
                     android:id="@+id/textView46"
-                    android:layout_width="298dp"
-                    android:layout_height="400dp"
+                    android:layout_width="317dp"
+                    android:layout_height="544dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
                     android:text="@string/bless_our_parents_brothers_sisters_relatives_teachers_friends_and_benefactors_bless_our_nation_its_leaders_and_all_its_people_enlighten_all_the_people_of_the_world_so_that_they_may_approach_your_true_faith_and_salvation_welcome_into_your_kingdom_all_those_who_have_not_known_you_bless_all_peoples_of_the_world_and_bring_together_o_lord_into_the_unity_of_the_true_catholic_communion_all_those_who_are_separated_from_us_bless_the_holy_church_throughout_the_world_bless_the_head_of_the_universal_church_the_holy_father_pope_francis_the_head_and_father_of_our_church_moran_mor_baselios_cardinal_cleemis_catholicos_bless_our_shepherd_and_bishop_aboon_mor_stephanos_and_all_the_bishops_of_the_true_faith_bless_all_our_eparchies_parishes_missions_priests_seminarians_and_the_men_and_women_religious_of_our_church_heal_all_those_who_are_ill_and_bless_the_orphans_homeless_unemployed_and_destitute_bless_all_schools_colleges_and_institutions_and_all_who_are_associated_with_them_lord_bless_all_families_and_the_whole_world_and_in_your_grace_and_plentitude_bless_us_all"
@@ -376,8 +376,8 @@
 
                 <TextView
                     android:id="@+id/textView209"
-                    android:layout_width="310dp"
-                    android:layout_height="1439dp"
+                    android:layout_width="357dp"
+                    android:layout_height="1330dp"
                     android:layout_marginStart="162dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="172dp"
@@ -586,13 +586,13 @@
                     android:layout_width="299dp"
                     android:layout_height="104dp"
                     android:layout_marginStart="153dp"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="24dp"
                     android:layout_marginEnd="181dp"
                     android:text="Hail Mary, full of Grace!  The Lord is with thee. Blessed are thou among women and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners now and at the hour of our death. Amen."
                     android:textColor="#000"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintHorizontal_bias="0.454"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView224" />
 
@@ -616,12 +616,12 @@
                     android:layout_width="323dp"
                     android:layout_height="162dp"
                     android:layout_marginStart="27dp"
-                    android:layout_marginTop="17dp"
                     android:layout_marginEnd="48dp"
                     android:text="Our Father, who art in heaven. Hallowed be Thy name. Thy kingdom come. Thy will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespassess, as we forgive those who trespassed against us, and lead us not into temptation, but deliver us from evil one. For thine is the kingdom, the power, and the glory, now and forever. Amen."
                     android:textColor="#000"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView226" />
 
@@ -642,16 +642,16 @@
 
                 <TextView
                     android:id="@+id/textView227"
-                    android:layout_width="319dp"
-                    android:layout_height="221dp"
+                    android:layout_width="307dp"
+                    android:layout_height="204dp"
                     android:layout_marginStart="29dp"
-                    android:layout_marginTop="21dp"
+                    android:layout_marginTop="32dp"
                     android:layout_marginEnd="58dp"
                     android:text="@string/holy_are_you_o_god_holy_are_you_the_mighty_holy_are_you_the_immortal_who_were_crucified_for_us_have_mercy_on_us_repeat_3_times_have_mercy_on_us_o_lord_have_pity_and_mercy_on_us_o_lord_receive_our_services_and_prayers_and_have_mercy_on_us_o_lord_glory_to_you_o_god_glory_to_you_o_creator_glory_to_you_o_christ_the_king_who_have_compassion_on_your_sinful_servants_barekmor"
                     android:textColor="#000"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView228" />
 
@@ -674,13 +674,12 @@
                     android:layout_width="296dp"
                     android:layout_height="184dp"
                     android:layout_marginStart="164dp"
-                    android:layout_marginTop="1dp"
                     android:layout_marginEnd="170dp"
                     android:text="@string/in_the_name_of_the_father_son_and_holy_spirit_one_true_god_forever_and_ever_amen_holy_holy_holy_lord_god_almighty_heaven_and_earth_are_full_of_your_glory_hosanna_in_the_highest_blessed_is_he_who_has_come_and_is_to_come_in_the_name_of_the_lord_hosanna_in_the_highest"
                     android:textColor="#000"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.563"
+                    app:layout_constraintHorizontal_bias="0.481"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView230" />
 

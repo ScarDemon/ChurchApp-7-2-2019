@@ -12,8 +12,8 @@
         <!-- TODO: Update blank fragment layout -->
         <TextView
             android:id="@+id/title"
-            android:layout_width="237dp"
-            android:layout_height="43dp"
+            android:layout_width="204dp"
+            android:layout_height="40dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:text="The Thirteenth Station: Jesus is Taken Down from the Cross"
@@ -147,7 +147,7 @@
             android:id="@+id/textView15"
             android:layout_width="56dp"
             android:layout_height="25dp"
-            android:layout_marginEnd="104dp"
+            android:layout_marginEnd="20dp"
             android:text="@string/kneel"
             android:textColor="#D61313"
             android:textStyle="bold"
@@ -160,8 +160,8 @@
             android:id="@+id/textView16"
             android:layout_width="28dp"
             android:layout_height="21dp"
-            android:layout_marginStart="44dp"
-            android:layout_marginTop="112dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="176dp"
             android:text="@string/r"
             android:textColor="#CF0B0B"
             android:textStyle="bold"
@@ -208,5 +208,29 @@
             app:layout_constraintHorizontal_bias="0.463"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <ImageButton
+            android:id="@+id/ThirteenthStationto12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintEnd_toStartOf="@+id/title"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/ThirteenthStationto14th"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_forward"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/title"
+            app:layout_constraintTop_toTopOf="parent" />
     </android.support.constraint.ConstraintLayout>
 </ScrollView>
