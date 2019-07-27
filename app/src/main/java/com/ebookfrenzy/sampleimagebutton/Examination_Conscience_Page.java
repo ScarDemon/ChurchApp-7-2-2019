@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.navigation.Navigation;
 
@@ -33,6 +34,7 @@ public class Examination_Conscience_Page extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
 
     private OnFragmentInteractionListener mListener;
 
@@ -201,6 +203,26 @@ public class Examination_Conscience_Page extends Fragment {
             public void onClick(View v) {
                 Examination_Conscience_PageDirections.ActionExaminationConsciencePageToTheEighthCommandmentPage action =
                         Examination_Conscience_PageDirections.actionExaminationConsciencePageToTheEighthCommandmentPage();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+
+        ImageButton button11 = getView().findViewById(R.id.ExaminetoPrep);
+        button11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               Examination_Conscience_PageDirections.ActionExaminationConsciencePageToPreparationPage action =
+                       Examination_Conscience_PageDirections.actionExaminationConsciencePageToPreparationPage();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+
+        ImageButton button12 = getView().findViewById(R.id.ExaminetoRepPrayer);
+        button12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Examination_Conscience_PageDirections.ActionExaminationConsciencePageToPrayerRepentancePage action =
+                        Examination_Conscience_PageDirections.actionExaminationConsciencePageToPrayerRepentancePage();
                 Navigation.findNavController(v).navigate(action);
             }
         });

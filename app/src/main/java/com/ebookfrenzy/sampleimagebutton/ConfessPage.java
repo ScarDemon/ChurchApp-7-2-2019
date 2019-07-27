@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.navigation.Navigation;
 
@@ -144,8 +145,8 @@ public class ConfessPage extends Fragment {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ConfessPageDirections.ActionConfessPageToMawPrayerPage action =
-                        ConfessPageDirections.actionConfessPageToMawPrayerPage();
+              ConfessPageDirections.ActionConfessPageToMawPrayer2 action =
+                 ConfessPageDirections.actionConfessPageToMawPrayer2();
                 Navigation.findNavController(v).navigate(action);
             }
         });
@@ -178,6 +179,16 @@ button7.setOnClickListener(new View.OnClickListener() {
         Navigation.findNavController(v).navigate(action);
     }
 });
+
+        ImageButton button8 = getView().findViewById(R.id.ReptoHome);
+        button8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ConfessPageDirections.ActionConfessPageToMainFragment2 action =
+                        ConfessPageDirections.actionConfessPageToMainFragment2();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
 
     }
 

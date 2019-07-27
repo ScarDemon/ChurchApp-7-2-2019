@@ -17,12 +17,12 @@ import androidx.navigation.Navigation;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Act_Of_Contrition_Page.OnFragmentInteractionListener} interface
+ * {@link MawPrayer.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Act_Of_Contrition_Page#newInstance} factory method to
+ * Use the {@link MawPrayer#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Act_Of_Contrition_Page extends Fragment {
+public class MawPrayer extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -35,7 +35,7 @@ public class Act_Of_Contrition_Page extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public Act_Of_Contrition_Page() {
+    public MawPrayer() {
         // Required empty public constructor
     }
 
@@ -45,11 +45,11 @@ public class Act_Of_Contrition_Page extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Act_Of_Contrition_Page.
+     * @return A new instance of fragment MawPrayer.
      */
     // TODO: Rename and change types and number of parameters
-    public static Act_Of_Contrition_Page newInstance(String param1, String param2) {
-        Act_Of_Contrition_Page fragment = new Act_Of_Contrition_Page();
+    public static MawPrayer newInstance(String param1, String param2) {
+        MawPrayer fragment = new MawPrayer();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -70,7 +70,7 @@ public class Act_Of_Contrition_Page extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_act__of__contrition__page, container, false);
+        return inflater.inflate(R.layout.fragment_maw_prayer, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -112,31 +112,31 @@ public class Act_Of_Contrition_Page extends Fragment {
         void onFragmentInteraction(Uri uri);
     }
 
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         mViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
         // TODO: Use the ViewModel
 
-        ImageButton button8 = getView().findViewById(R.id.ActLeftArrow);
+        ImageButton button8 = getView().findViewById(R.id.LeftArrowMaw);
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Act_Of_Contrition_PageDirections.ActionActOfContritionPageToMawPrayer2 action =
-                        Act_Of_Contrition_PageDirections.actionActOfContritionPageToMawPrayer2();
+                MawPrayerDirections.ActionMawPrayer2ToPrayerRepentancePage action =
+                MawPrayerDirections.actionMawPrayer2ToPrayerRepentancePage();
                 Navigation.findNavController(v).navigate(action);
             }
         });
 
-
-        ImageButton button9 = getView().findViewById(R.id.ActRightArrow);
+        ImageButton button9 = getView().findViewById(R.id.RightArrowMaw);
         button9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Act_Of_Contrition_PageDirections.ActionActOfContritionPageToThanksGivingConfessPage action =
-                        Act_Of_Contrition_PageDirections.actionActOfContritionPageToThanksGivingConfessPage();
+                MawPrayerDirections.ActionMawPrayer2ToActOfContritionPage action =
+                        MawPrayerDirections.actionMawPrayer2ToActOfContritionPage();
                 Navigation.findNavController(v).navigate(action);
             }
         });
     }
-}
+    }

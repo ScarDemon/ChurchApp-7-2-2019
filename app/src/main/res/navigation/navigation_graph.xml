@@ -158,9 +158,6 @@
             android:id="@+id/action_confessPage_to_prayer_Repentance_Page"
             app:destination="@id/prayer_Repentance_Page" />
         <action
-            android:id="@+id/action_confessPage_to_maw_Prayer_Page"
-            app:destination="@id/maw_Prayer_Page" />
-        <action
             android:id="@+id/action_confessPage_to_act_Of_Contrition_Page"
             app:destination="@id/act_Of_Contrition_Page" />
         <action
@@ -169,6 +166,12 @@
         <action
             android:id="@+id/action_confessPage_to_prayer_To_Holy_Spirit_Page"
             app:destination="@id/prayer_To_Holy_Spirit_Page" />
+        <action
+            android:id="@+id/action_confessPage_to_mainFragment2"
+            app:destination="@id/mainFragment2" />
+        <action
+            android:id="@+id/action_confessPage_to_mawPrayer2"
+            app:destination="@id/mawPrayer2" />
     </fragment>
     <fragment
         android:id="@+id/signOfCrossPage"
@@ -611,7 +614,14 @@
         android:id="@+id/preparationPage"
         android:name="com.ebookfrenzy.sampleimagebutton.PreparationPage"
         android:label="fragment_preparation_page"
-        tools:layout="@layout/fragment_preparation_page" />
+        tools:layout="@layout/fragment_preparation_page" >
+        <action
+            android:id="@+id/action_preparationPage_to_confessPage"
+            app:destination="@id/confessPage" />
+        <action
+            android:id="@+id/action_preparationPage_to_examination_Conscience_Page"
+            app:destination="@id/examination_Conscience_Page" />
+    </fragment>
     <fragment
         android:id="@+id/examination_Conscience_Page"
         android:name="com.ebookfrenzy.sampleimagebutton.Examination_Conscience_Page"
@@ -647,32 +657,61 @@
         <action
             android:id="@+id/action_examination_Conscience_Page_to_theEighthCommandmentPage"
             app:destination="@id/theEighthCommandmentPage" />
+        <action
+            android:id="@+id/action_examination_Conscience_Page_to_preparationPage"
+            app:destination="@id/preparationPage" />
+        <action
+            android:id="@+id/action_examination_Conscience_Page_to_prayer_Repentance_Page"
+            app:destination="@id/prayer_Repentance_Page" />
     </fragment>
     <fragment
         android:id="@+id/prayer_Repentance_Page"
         android:name="com.ebookfrenzy.sampleimagebutton.Prayer_Repentance_Page"
         android:label="fragment_prayer__repentance__page"
-        tools:layout="@layout/fragment_prayer__repentance__page" />
-    <fragment
-        android:id="@+id/maw_Prayer_Page"
-        android:name="com.ebookfrenzy.sampleimagebutton.Maw_Prayer_Page"
-        android:label="fragment_maw__prayer__page"
-        tools:layout="@layout/fragment_maw__prayer__page" />
+        tools:layout="@layout/fragment_prayer__repentance__page" >
+        <action
+            android:id="@+id/action_prayer_Repentance_Page_to_examination_Conscience_Page"
+            app:destination="@id/examination_Conscience_Page" />
+        <action
+            android:id="@+id/action_prayer_Repentance_Page_to_mawPrayer2"
+            app:destination="@id/mawPrayer2" />
+    </fragment>
     <fragment
         android:id="@+id/act_Of_Contrition_Page"
         android:name="com.ebookfrenzy.sampleimagebutton.Act_Of_Contrition_Page"
         android:label="fragment_act__of__contrition__page"
-        tools:layout="@layout/fragment_act__of__contrition__page" />
+        tools:layout="@layout/fragment_act__of__contrition__page" >
+        <action
+            android:id="@+id/action_act_Of_Contrition_Page_to_mawPrayer2"
+            app:destination="@id/mawPrayer2" />
+        <action
+            android:id="@+id/action_act_Of_Contrition_Page_to_thanksGiving_Confess_Page"
+            app:destination="@id/thanksGiving_Confess_Page" />
+    </fragment>
     <fragment
         android:id="@+id/thanksGiving_Confess_Page"
         android:name="com.ebookfrenzy.sampleimagebutton.ThanksGiving_Confess_Page"
         android:label="fragment_thanks_giving__confess__page"
-        tools:layout="@layout/fragment_thanks_giving__confess__page" />
+        tools:layout="@layout/fragment_thanks_giving__confess__page" >
+        <action
+            android:id="@+id/action_thanksGiving_Confess_Page_to_act_Of_Contrition_Page"
+            app:destination="@id/act_Of_Contrition_Page" />
+        <action
+            android:id="@+id/action_thanksGiving_Confess_Page_to_prayer_To_Holy_Spirit_Page"
+            app:destination="@id/prayer_To_Holy_Spirit_Page" />
+    </fragment>
     <fragment
         android:id="@+id/prayer_To_Holy_Spirit_Page"
         android:name="com.ebookfrenzy.sampleimagebutton.Prayer_To_Holy_Spirit_Page"
         android:label="fragment_prayer__to__holy__spirit__page"
-        tools:layout="@layout/fragment_prayer__to__holy__spirit__page" />
+        tools:layout="@layout/fragment_prayer__to__holy__spirit__page" >
+        <action
+            android:id="@+id/action_prayer_To_Holy_Spirit_Page_to_thanksGiving_Confess_Page"
+            app:destination="@id/thanksGiving_Confess_Page" />
+        <action
+            android:id="@+id/action_prayer_To_Holy_Spirit_Page_to_confessPage"
+            app:destination="@id/confessPage" />
+    </fragment>
     <fragment
         android:id="@+id/firstCommandmentPage"
         android:name="com.ebookfrenzy.sampleimagebutton.FirstCommandmentPage"
@@ -920,5 +959,17 @@
         <action
             android:id="@+id/action_englishOrMalConfessPage_to_confessPage"
             app:destination="@id/confessPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/mawPrayer2"
+        android:name="com.ebookfrenzy.sampleimagebutton.MawPrayer"
+        android:label="fragment_maw_prayer"
+        tools:layout="@layout/fragment_maw_prayer" >
+        <action
+            android:id="@+id/action_mawPrayer2_to_act_Of_Contrition_Page"
+            app:destination="@id/act_Of_Contrition_Page" />
+        <action
+            android:id="@+id/action_mawPrayer2_to_prayer_Repentance_Page"
+            app:destination="@id/prayer_Repentance_Page" />
     </fragment>
 </navigation>
