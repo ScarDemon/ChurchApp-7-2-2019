@@ -16,7 +16,7 @@
         android:layout_marginTop="204dp"
         android:layout_marginEnd="8dp"
         android:text="@string/english"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/MalLit"
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view3" />
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/MalLit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="68dp"

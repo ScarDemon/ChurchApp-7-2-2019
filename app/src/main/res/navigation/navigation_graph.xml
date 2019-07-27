@@ -950,6 +950,9 @@
         <action
             android:id="@+id/action_litEnglishMalPage_to_liturgyoftheHours"
             app:destination="@id/liturgyoftheHours" />
+        <action
+            android:id="@+id/action_litEnglishMalPage_to_liturgyOfTheHoursMal"
+            app:destination="@id/liturgyOfTheHoursMal" />
     </fragment>
     <fragment
         android:id="@+id/englishOrMalConfessPage"
@@ -972,4 +975,9 @@
             android:id="@+id/action_mawPrayer2_to_prayer_Repentance_Page"
             app:destination="@id/prayer_Repentance_Page" />
     </fragment>
+    <fragment
+        android:id="@+id/liturgyOfTheHoursMal"
+        android:name="com.ebookfrenzy.sampleimagebutton.LiturgyOfTheHoursMal"
+        android:label="fragment_liturgy_of_the_hours_mal"
+        tools:layout="@layout/fragment_liturgy_of_the_hours_mal" />
 </navigation>

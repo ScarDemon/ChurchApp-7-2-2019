@@ -1,28 +1,23 @@
 package com.ebookfrenzy.sampleimagebutton;
 
-import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-
-import androidx.navigation.Navigation;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link LitEnglishMalPage.OnFragmentInteractionListener} interface
+ * {@link LiturgyOfTheHoursMal.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link LitEnglishMalPage#newInstance} factory method to
+ * Use the {@link LiturgyOfTheHoursMal#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class LitEnglishMalPage extends Fragment {
+public class LiturgyOfTheHoursMal extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -31,11 +26,10 @@ public class LitEnglishMalPage extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    private MainViewModel mViewModel;
 
     private OnFragmentInteractionListener mListener;
 
-    public LitEnglishMalPage() {
+    public LiturgyOfTheHoursMal() {
         // Required empty public constructor
     }
 
@@ -45,11 +39,11 @@ public class LitEnglishMalPage extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment LitEnglishMalPage.
+     * @return A new instance of fragment LiturgyOfTheHoursMal.
      */
     // TODO: Rename and change types and number of parameters
-    public static LitEnglishMalPage newInstance(String param1, String param2) {
-        LitEnglishMalPage fragment = new LitEnglishMalPage();
+    public static LiturgyOfTheHoursMal newInstance(String param1, String param2) {
+        LiturgyOfTheHoursMal fragment = new LiturgyOfTheHoursMal();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -70,7 +64,7 @@ public class LitEnglishMalPage extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_lit_english_mal_page, container, false);
+        return inflater.inflate(R.layout.fragment_liturgy_of_the_hours_mal, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -89,42 +83,6 @@ public class LitEnglishMalPage extends Fragment {
             throw new RuntimeException(context.toString()
                     + " must implement OnFragmentInteractionListener");
         }
-    }
-
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
-        // TODO: Use the ViewModel
-
-        Button button = getView().findViewById(R.id.EngLit);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-
-                LitEnglishMalPageDirections.ActionLitEnglishMalPageToLiturgyoftheHours action =
-                        LitEnglishMalPageDirections.actionLitEnglishMalPageToLiturgyoftheHours();
-
-
-
-
-                /*This item needs to change */
-                Navigation.findNavController(view).navigate(action);
-
-                // Navigation.findNavController(view).navigate(R.id.mainOnetoSecond);
-
-            }
-        });
-
-        Button button2 = getView().findViewById(R.id.MalLit);
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                LitEnglishMalPageDirections.ActionLitEnglishMalPageToLiturgyOfTheHoursMal action =
-                        LitEnglishMalPageDirections.actionLitEnglishMalPageToLiturgyOfTheHoursMal();
-                Navigation.findNavController(v).navigate(action);
-            }
-        });
     }
 
     @Override
