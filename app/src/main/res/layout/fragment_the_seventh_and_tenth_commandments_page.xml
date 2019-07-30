@@ -5,22 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TheSeventhAndTenthCommandmentsPAge"
-    android:background="@drawable/symbol">
+    android:background="#00bfff">
 <android.support.constraint.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/title"
-        android:layout_width="276dp"
-        android:layout_height="31dp"
+        android:layout_width="179dp"
+        android:layout_height="41dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="The Seventh and Tenth Commandments"
         android:textColor="#000"
+        android:textSize="16sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,7 +45,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I steal?  What object did I steal?  How much money, or how much was the object worth?  Did I give it back, or at least have the intenion of doing so?  Did I knowingly accept stolen goods or services (cable television, Internet access) without payment?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,14 +53,14 @@
 
     <TextView
         android:id="@+id/textView145"
-        android:layout_width="273dp"
-        android:layout_height="47dp"
+        android:layout_width="270dp"
+        android:layout_height="55dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:text="\u2022  Have I done or caused damage to another person's property?  To what extent?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
@@ -74,7 +75,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022  Did I harm anyone by deception, fraud, or coercion in business contracts or transactions?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView145" />
@@ -87,7 +88,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I unncessarily spend beyond my means?  Do I spend too much money because of vanity or caprice?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView146" />
@@ -100,7 +101,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Do I give alms according to my capacity?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.425"
         app:layout_constraintStart_toStartOf="parent"
@@ -114,7 +115,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Was I envious of my neighbor's goods?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"
@@ -128,7 +129,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022  Did I neglect to pay my debts?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.287"
         app:layout_constraintStart_toStartOf="parent"
@@ -142,7 +143,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I knowingly accept stolen goods?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.367"
         app:layout_constraintStart_toStartOf="parent"
@@ -156,7 +157,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I desire to steal?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.217"
         app:layout_constraintStart_toStartOf="parent"
@@ -170,7 +171,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I give in to laziness or love of comfort rather than dilligently work or study?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView152" />
@@ -183,10 +184,34 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Was I greedy?  Do I have an excessively materialistic view of life?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView153" />
+
+    <ImageButton
+        android:id="@+id/SeventhAndTenthToSixthAndNinthMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_arrow_back"
+        app:layout_constraintEnd_toStartOf="@+id/title"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/SeventhAndTenthToEigth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_arrow_forward"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/title"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
 </ScrollView>

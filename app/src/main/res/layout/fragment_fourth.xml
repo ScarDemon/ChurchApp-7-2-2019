@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background = "@drawable/symbol"
+    android:background = "#00bfff"
     tools:context=".fourthFragment">
 
     <!-- TODO: Update blank fragment layout -->

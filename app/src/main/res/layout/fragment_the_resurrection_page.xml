@@ -48,7 +48,7 @@
             android:layout_marginEnd="8dp"
             android:text="The Resurrection"
             android:textColor="#000"
-            android:textStyle="bold"
+            android:textStyle="bold|italic"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view13" />
@@ -58,12 +58,13 @@
             android:layout_width="315dp"
             android:layout_height="407dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
             android:text="When the Sabbath was over, Mary Magdalene, and Mary the mother of James, and Salome, bought spices, so that they might come and anoint Him. Very early on the first day of the week, they *came to the tomb when the sun had risen.  They were saying to one another, “Who will roll away the stone for us from the entrance of the tomb?”  Looking up, they saw that the stone had been rolled away, although it was extremely large.  Entering the tomb, they saw a young man sitting at the right, wearing a white robe; and they were amazed.  And he *said to them, “Do not be amazed; you are looking for Jesus the Nazarene, who has been crucified. He has risen; He is not here; behold, here is the place where they laid Him.  But go, tell His disciples and Peter, ‘He is going ahead of you to Galilee; there you will see Him, just as He told you.’” They went out and fled from the tomb, for trembling and astonishment had gripped them; and they said nothing to anyone, for they were afraid."
             android:textColor="#000"
-            android:textStyle="bold|italic"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.512"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView72" />
 

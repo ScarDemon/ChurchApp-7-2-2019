@@ -1,12 +1,17 @@
 package com.ebookfrenzy.sampleimagebutton;
 
+import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+
+import androidx.navigation.Navigation;
 
 
 /**
@@ -26,7 +31,7 @@ public class TheThirdCommandmentPage extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-
+    private MainViewModel mViewModel;
     private OnFragmentInteractionListener mListener;
 
     public TheThirdCommandmentPage() {
@@ -105,4 +110,29 @@ public class TheThirdCommandmentPage extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
-}
+
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
+        // TODO: Use the ViewModel
+        ImageButton button17 = getView().findViewById(R.id.ThirdToSecond);
+        button17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TheThirdCommandmentPageDirections.ActionTheThirdCommandmentPageToTheSecondCommandmentPage action =
+                        TheThirdCommandmentPageDirections.actionTheThirdCommandmentPageToTheSecondCommandmentPage();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+
+        ImageButton button18 = getView().findViewById(R.id.ThirdToFourthPara);
+        button18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TheThirdCommandmentPageDirections.ActionTheThirdCommandmentPageToTheFourthCommandmentParentPage action =
+                        TheThirdCommandmentPageDirections.actionTheThirdCommandmentPageToTheFourthCommandmentParentPage();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+    }
+    }

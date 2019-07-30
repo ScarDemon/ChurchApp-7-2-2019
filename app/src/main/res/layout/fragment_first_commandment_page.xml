@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FirstCommandmentPage"
-    android:background="@drawable/symbol">
+    android:background="#00bfff">
 <android.support.constraint.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -23,8 +23,8 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/title"
-        android:layout_width="308dp"
-        android:layout_height="43dp"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -44,7 +44,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I perform my duties toward God relutantly or grudgeingly?  "
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.342"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,7 +58,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I neglect my prayer life?  Did I recite my usual prayers?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +72,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I receive Holy Communion in the state of mortal sin or without necessary preparation?  "
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.343"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,7 +86,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I violate the one-hour Eucharist fast?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.257"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,7 +100,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I fail to mention some grave sin in my previous confessions?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.336"
         app:layout_constraintStart_toStartOf="parent"
@@ -115,7 +115,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I seriously believe in something superstitious or engage in superstitious practice (palm-reading or fortune telling for instance)?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.373"
         app:layout_constraintStart_toStartOf="parent"
@@ -130,7 +130,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I seriously doubt a matter of Faith?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.222"
         app:layout_constraintStart_toStartOf="parent"
@@ -138,14 +138,14 @@
 
     <TextView
         android:id="@+id/textView142"
-        android:layout_width="306dp"
-        android:layout_height="101dp"
+        android:layout_width="304dp"
+        android:layout_height="116dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I put my faith in danger - without a good reason - by accessing the Internet; reading a book, pamphlet, or magazine; or viewing movies and televison programs that contain material contrary to the Catholic Faith or morals"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
@@ -159,7 +159,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I endanger my faith by joining or attending meetings of organization opposed to the Catholic Faith?  Did I take part in one of its activites?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
@@ -174,10 +174,36 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Have I commited the sin of sacrilege (profanation of a sacred person, place, or thing)? "
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView143" />
+
+    <ImageButton
+        android:id="@+id/FirstToExamine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_arrow_back"
+        app:layout_constraintEnd_toStartOf="@+id/title"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/FirstToSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_arrow_forward"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/title"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
 </ScrollView>

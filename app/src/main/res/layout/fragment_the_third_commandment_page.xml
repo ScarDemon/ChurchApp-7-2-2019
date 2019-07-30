@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TheThirdCommandmentPage"
-    android:background="@drawable/symbol">
+    android:background="#00bfff">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/title"
-        android:layout_width="186dp"
-        android:layout_height="26dp"
+        android:layout_width="175dp"
+        android:layout_height="41dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="The Third Commandment"
@@ -41,7 +41,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I miss Mass on a Sunday or a Holy Day of Obligation? "
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
@@ -54,7 +54,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I fail to dress appropriately for Mass?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView176" />
@@ -67,7 +67,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Have I, without sufficient reason, arrived at Mass so late that I failed to fulfill the Sunday or Holy Day of Obligation? "
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView177" />
@@ -81,7 +81,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I allow myself to be distracted during Mass, by not paying attention, looking around out of curosity, etc?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
@@ -96,7 +96,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I cause another to be distracted?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView179" />
@@ -110,7 +110,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Have I performed any work or business activity that would inhibit the worship due to God, the joy proper to the Lord's Day, or the appropriate relaxation of mind and body, on a Sunday or a Holy Day of Obligation?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView180" />
@@ -123,7 +123,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I fail to generously help the Church in her necessities to I am able? "
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView181" />
@@ -137,9 +137,33 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I fail to fast or abstain on a day prescribed by the Church?"
         android:textColor="#000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView182" />
+
+    <ImageButton
+        android:id="@+id/ThirdToSecond"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_arrow_back"
+        app:layout_constraintEnd_toStartOf="@+id/title"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ThirdToFourthPara"
+        android:layout_width="47dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_arrow_forward"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/title"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

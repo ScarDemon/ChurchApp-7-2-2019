@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ApostlesCreedPage"
-    android:background="@drawable/symbol">
+    android:background="#00bfff">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -43,7 +43,7 @@
         android:layout_marginEnd="8dp"
         android:text="I believe in God, the Father almighty, creator of heaven and earth."
         android:textColor="#000000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.395"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +57,7 @@
         android:layout_marginEnd="8dp"
         android:text="I believe in Jesus Christ, his only Son, our Lord.  He was conceived by the power of the Holy Spirit and born of the Virgin Mary.  He Suffered under Pontius Pilate, was crucifed, died, and was buried.  He descended into hell.  On the thrid day he rose again.  He ascended into heaven, and is seated at the right hand of the Father.  He will come again to judge the living and the dead."
         android:textColor="#000000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +71,7 @@
         android:layout_marginEnd="8dp"
         android:text="I believe in the Holy Spirit, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and the life everlasting.  Amen."
         android:textColor="#000000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.426"
         app:layout_constraintStart_toStartOf="parent"

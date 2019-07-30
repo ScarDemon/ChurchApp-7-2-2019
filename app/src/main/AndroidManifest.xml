@@ -12,7 +12,7 @@
     <supports-screens
 android:largeScreens="true"
         android:normalScreens="true"
-        android:smallScreens="false"
+        android:smallScreens="true"
         android:xlargeScreens="true"
         />
 
@@ -38,7 +38,9 @@ android:largeScreens="true"
 
         <activity
             android:name=".MapsActivity"
-            android:label="Locations"></activity>
+            android:label="Locations">
+
+        </activity>
         <activity android:name=".MainActivity">
 
             <intent-filter>

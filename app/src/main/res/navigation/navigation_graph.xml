@@ -716,52 +716,122 @@
         android:id="@+id/firstCommandmentPage"
         android:name="com.ebookfrenzy.sampleimagebutton.FirstCommandmentPage"
         android:label="fragment_first_commandment_page"
-        tools:layout="@layout/fragment_first_commandment_page" />
+        tools:layout="@layout/fragment_first_commandment_page" >
+        <action
+            android:id="@+id/action_firstCommandmentPage_to_examination_Conscience_Page"
+            app:destination="@id/examination_Conscience_Page" />
+        <action
+            android:id="@+id/action_firstCommandmentPage_to_theSecondCommandmentPage"
+            app:destination="@id/theSecondCommandmentPage" />
+    </fragment>
     <fragment
         android:id="@+id/theSecondCommandmentPage"
         android:name="com.ebookfrenzy.sampleimagebutton.TheSecondCommandmentPage"
         android:label="fragment_the_second_commandment_page"
-        tools:layout="@layout/fragment_the_second_commandment_page" />
+        tools:layout="@layout/fragment_the_second_commandment_page" >
+        <action
+            android:id="@+id/action_theSecondCommandmentPage_to_firstCommandmentPage"
+            app:destination="@id/firstCommandmentPage" />
+        <action
+            android:id="@+id/action_theSecondCommandmentPage_to_theThirdCommandmentPage"
+            app:destination="@id/theThirdCommandmentPage" />
+    </fragment>
     <fragment
         android:id="@+id/theThirdCommandmentPage"
         android:name="com.ebookfrenzy.sampleimagebutton.TheThirdCommandmentPage"
         android:label="fragment_the_third_commandment_page"
-        tools:layout="@layout/fragment_the_third_commandment_page" />
+        tools:layout="@layout/fragment_the_third_commandment_page" >
+        <action
+            android:id="@+id/action_theThirdCommandmentPage_to_theSecondCommandmentPage"
+            app:destination="@id/theSecondCommandmentPage" />
+        <action
+            android:id="@+id/action_theThirdCommandmentPage_to_theFourthCommandment_Parent_Page"
+            app:destination="@id/theFourthCommandment_Parent_Page" />
+    </fragment>
     <fragment
         android:id="@+id/theFourthCommandment_Parent_Page"
         android:name="com.ebookfrenzy.sampleimagebutton.TheFourthCommandment_Parent_Page"
         android:label="fragment_the_fourth_commandment__parent__page"
-        tools:layout="@layout/fragment_the_fourth_commandment__parent__page" />
+        tools:layout="@layout/fragment_the_fourth_commandment__parent__page" >
+        <action
+            android:id="@+id/action_theFourthCommandment_Parent_Page_to_theThirdCommandmentPage"
+            app:destination="@id/theThirdCommandmentPage" />
+        <action
+            android:id="@+id/action_theFourthCommandment_Parent_Page_to_theFourthCommandment_Children_Page"
+            app:destination="@id/theFourthCommandment_Children_Page" />
+    </fragment>
     <fragment
         android:id="@+id/theFourthCommandment_Children_Page"
         android:name="com.ebookfrenzy.sampleimagebutton.TheFourthCommandment_Children_Page"
         android:label="fragment_the_fourth_commandment__children__page"
-        tools:layout="@layout/fragment_the_fourth_commandment__children__page" />
+        tools:layout="@layout/fragment_the_fourth_commandment__children__page" >
+        <action
+            android:id="@+id/action_theFourthCommandment_Children_Page_to_theFourthCommandment_Parent_Page"
+            app:destination="@id/theFourthCommandment_Parent_Page" />
+        <action
+            android:id="@+id/action_theFourthCommandment_Children_Page_to_theFifthCommandmentPage"
+            app:destination="@id/theFifthCommandmentPage" />
+    </fragment>
     <fragment
         android:id="@+id/theFifthCommandmentPage"
         android:name="com.ebookfrenzy.sampleimagebutton.TheFifthCommandmentPage"
         android:label="fragment_the_fifth_commandment_page"
-        tools:layout="@layout/fragment_the_fifth_commandment_page" />
+        tools:layout="@layout/fragment_the_fifth_commandment_page" >
+        <action
+            android:id="@+id/action_theFifthCommandmentPage_to_theFourthCommandment_Children_Page"
+            app:destination="@id/theFourthCommandment_Children_Page" />
+        <action
+            android:id="@+id/action_theFifthCommandmentPage_to_sixthAndNinthCommandmentPage"
+            app:destination="@id/sixthAndNinthCommandmentPage" />
+    </fragment>
     <fragment
         android:id="@+id/sixthAndNinthCommandmentPage"
         android:name="com.ebookfrenzy.sampleimagebutton.SixthAndNinthCommandmentPage"
         android:label="fragment_sixth_and_ninth_commandment_page"
-        tools:layout="@layout/fragment_sixth_and_ninth_commandment_page" />
+        tools:layout="@layout/fragment_sixth_and_ninth_commandment_page" >
+        <action
+            android:id="@+id/action_sixthAndNinthCommandmentPage_to_theFifthCommandmentPage"
+            app:destination="@id/theFifthCommandmentPage" />
+        <action
+            android:id="@+id/action_sixthAndNinthCommandmentPage_to_sixthAndNinthCommandment_Married_People_Page"
+            app:destination="@id/sixthAndNinthCommandment_Married_People_Page" />
+    </fragment>
     <fragment
         android:id="@+id/sixthAndNinthCommandment_Married_People_Page"
         android:name="com.ebookfrenzy.sampleimagebutton.SixthAndNinthCommandment_Married_People_Page"
         android:label="fragment_sixth_and_ninth_commandment__married__people__page"
-        tools:layout="@layout/fragment_sixth_and_ninth_commandment__married__people__page" />
+        tools:layout="@layout/fragment_sixth_and_ninth_commandment__married__people__page" >
+        <action
+            android:id="@+id/action_sixthAndNinthCommandment_Married_People_Page_to_sixthAndNinthCommandmentPage"
+            app:destination="@id/sixthAndNinthCommandmentPage" />
+        <action
+            android:id="@+id/action_sixthAndNinthCommandment_Married_People_Page_to_theSeventhAndTenthCommandmentsPAge"
+            app:destination="@id/theSeventhAndTenthCommandmentsPAge" />
+    </fragment>
     <fragment
         android:id="@+id/theSeventhAndTenthCommandmentsPAge"
         android:name="com.ebookfrenzy.sampleimagebutton.TheSeventhAndTenthCommandmentsPAge"
         android:label="fragment_the_seventh_and_tenth_commandments_page"
-        tools:layout="@layout/fragment_the_seventh_and_tenth_commandments_page" />
+        tools:layout="@layout/fragment_the_seventh_and_tenth_commandments_page" >
+        <action
+            android:id="@+id/action_theSeventhAndTenthCommandmentsPAge_to_sixthAndNinthCommandment_Married_People_Page"
+            app:destination="@id/sixthAndNinthCommandment_Married_People_Page" />
+        <action
+            android:id="@+id/action_theSeventhAndTenthCommandmentsPAge_to_theEighthCommandmentPage"
+            app:destination="@id/theEighthCommandmentPage" />
+    </fragment>
     <fragment
         android:id="@+id/theEighthCommandmentPage"
         android:name="com.ebookfrenzy.sampleimagebutton.TheEighthCommandmentPage"
         android:label="fragment_the_eighth_commandment_page"
-        tools:layout="@layout/fragment_the_eighth_commandment_page" />
+        tools:layout="@layout/fragment_the_eighth_commandment_page" >
+        <action
+            android:id="@+id/action_theEighthCommandmentPage_to_theSeventhAndTenthCommandmentsPAge"
+            app:destination="@id/theSeventhAndTenthCommandmentsPAge" />
+        <action
+            android:id="@+id/action_theEighthCommandmentPage_to_examination_Conscience_Page"
+            app:destination="@id/examination_Conscience_Page" />
+    </fragment>
     <fragment
         android:id="@+id/realFirstStationPage"
         android:name="com.ebookfrenzy.sampleimagebutton.RealFirstStationPage"

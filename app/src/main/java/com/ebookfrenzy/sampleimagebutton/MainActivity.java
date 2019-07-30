@@ -13,6 +13,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 // import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View.OnClickListener;
 import android.view.View;
@@ -93,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
 
 
         // Find our drawer view
-        nvDrawer = (NavigationView) findViewById(R.id.nav_view);
+        nvDrawer = findViewById(R.id.nav_view);
         // Setup drawer view
         //setupDrawerContent(nvDrawer);
 
@@ -104,9 +106,18 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
 
 
      //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-       //getSupportActionBar().setHomeButtonEnabled(true);
+      // getSupportActionBar().setHomeButtonEnabled(true);
 
         }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.drawermenu, menu);
+        return true;
+    }
+
+
 
 
     /*private void setupDrawerContent(NavigationView navigationView) {
@@ -190,15 +201,21 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
         }
     }
 */
-        public boolean onOptionsSelected (MenuItem item) {
-
-        if (mToggle.onOptionsItemSelected(item)) {
 
 
-            return true;
-        }
-        return super.onContextItemSelected(item);
-        }
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item) {
+      int id = item.getItemId();
+      if (id == R.id.web) {
+          Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://stthomascatholic.church"));
+          startActivity(browserIntent);
+
+          return true;
+      }
+      NavController navController = Navigation.findNavController(this, R.id.nav_host_id);
+      return NavigationUI.onNavDestinationSelected(item, navController)
+              || super.onOptionsItemSelected(item);
+  }
 
         public void onFragmentInteraction(Uri uri) {
 
