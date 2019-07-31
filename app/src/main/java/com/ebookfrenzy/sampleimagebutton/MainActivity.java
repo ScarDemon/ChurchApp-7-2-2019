@@ -212,6 +212,13 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
 
           return true;
       }
+      else if (id == R.id.main_to_Map) {
+          Intent browserIntent;
+          browserIntent = new Intent(this, MapsActivity.class);
+          startActivity(browserIntent);
+
+          return true;
+      }
       NavController navController = Navigation.findNavController(this, R.id.nav_host_id);
       return NavigationUI.onNavDestinationSelected(item, navController)
               || super.onOptionsItemSelected(item);
