@@ -13,6 +13,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 // import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -105,8 +106,8 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
       mDrawerLayout.addDrawerListener(mToggle);
 
 
-     //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-      // getSupportActionBar().setHomeButtonEnabled(true);
+    // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    //  getSupportActionBar().setHomeButtonEnabled(true);
 
         }
 
@@ -162,6 +163,7 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
 
+
         // Highlight the selected item has been done by NavigationView
         menuItem.setChecked(true);
         // Set action bar title
@@ -192,20 +194,14 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
 
 
 
-  /*@Override
-    public void onBackPressed() {
-        if (mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
-            mDrawerLayout.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
-*/
 
 
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
+
+
       int id = item.getItemId();
+
       if (id == R.id.web) {
           Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://stthomascatholic.church"));
           startActivity(browserIntent);
@@ -222,6 +218,8 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
       NavController navController = Navigation.findNavController(this, R.id.nav_host_id);
       return NavigationUI.onNavDestinationSelected(item, navController)
               || super.onOptionsItemSelected(item);
+
+
   }
 
         public void onFragmentInteraction(Uri uri) {

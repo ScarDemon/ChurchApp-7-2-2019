@@ -26,14 +26,14 @@
         app:navGraph="@navigation/navigation_graph">
 
     </fragment>
+
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="start"
+        android:layout_gravity="right"
         android:fitsSystemWindows="true"
         app:menu="@menu/drawermenu"/>
-
 
 
 
