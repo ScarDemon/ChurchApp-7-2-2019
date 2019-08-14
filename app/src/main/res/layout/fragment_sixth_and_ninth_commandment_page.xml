@@ -28,8 +28,8 @@
     <View
         android:id="@+id/view2"
         android:layout_width="wrap_content"
-        android:layout_height="4dp"
-        android:layout_marginStart="8dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
         android:background="#90030303"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -45,7 +45,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 Did I willfully entertain impure thoughts?"
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view2" />
@@ -58,7 +58,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 Did I consent to evil desires aganist the virtue of purity, eben though I may not have carried them out?  Were there any circumstances that aggravated the sin: affinity (relationships by marriage), consanguninity (blood relationship), either the married state or the consecration to God of a person involved?"
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +72,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 Did I engage in impure conversations?  Did I start them?"
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.615"
             app:layout_constraintStart_toStartOf="parent"
@@ -86,7 +86,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 Did I look for fun in forms of entertainment that placed me in proximate occasions of sin, such as certain dances, movies, shows, books, or on the Internet with immoral contents?  Did I frequent houses of ill-repute or keep bad company?"
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView120" />
@@ -99,7 +99,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 Did I realize that I might have already been commiting a sin by placing mysef in a proximate occasion of sin, such as sharing a room with a person I find sexually attractive, or being alone with such a person in circumstances that could lead to sin?"
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView121" />
@@ -112,7 +112,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 Did I fail to take care of those details of modesty and decency that are the safeguards of purity?"
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView122" />
@@ -125,7 +125,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 Did I fail before going to a show or reading a book, to find out its moral implications, so as not to put muself in immediate danger of sinning and in order to avoid distorting my conscience?"
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView123" />
@@ -138,7 +138,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 Did I willfully look at an indecent picture or cast an immodest look upon myself or another?  Did I willfully desire to commit such a sin?"
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView124" />
@@ -151,7 +151,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 Did I lead others to sins of impurity or immodesty?  What sins?"
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.242"
             app:layout_constraintStart_toStartOf="parent"
@@ -165,7 +165,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 Did I commit an impure act?  By myself, through masturbation?  With someone else?  With someone of the same or opposite sex?  Was there any circumstance of relationship (such as affinity)  that could have given the sin special gravity? "
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.179"
             app:layout_constraintStart_toStartOf="parent"
@@ -179,7 +179,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 Do I have friendships that are habitual occasions of sexual sins?  Am I prepared to end them?"
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.232"
             app:layout_constraintStart_toStartOf="parent"
@@ -193,7 +193,7 @@
             android:layout_marginEnd="8dp"
             android:text="\u2022 In courtship, is true love my fundamental reason for wanting to be with the other person?  Do I live the constant and cheerful sacrifice of not putting the person I love in danger of sinning?  Do I degrade human love by confusing it with selfishness or mere pleasure?"
             android:textColor="#000"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.133"
             app:layout_constraintStart_toStartOf="parent"

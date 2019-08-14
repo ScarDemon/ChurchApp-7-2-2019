@@ -26,8 +26,8 @@
     <View
         android:id="@+id/view2"
         android:layout_width="wrap_content"
-        android:layout_height="4dp"
-        android:layout_marginStart="8dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
         android:background="#90030303"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -39,20 +39,19 @@
         android:layout_width="242dp"
         android:layout_height="210dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="8dp"
         android:text="O Most Compassionate Lord God, my thanksgiving for all that you have done for me is insufficient.  Until now I have beem enslaved by my sins to the evil one.  However, now I am your servant.  On account of my sins, I deserved from the enternal fires of hell but now by this Sacrament I am made worthy for the enternal joy of the kingdom of heaven."
         android:textColor="#000"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
 
     <ImageButton
         android:id="@+id/LeftThanksArrow"
-        android:layout_width="56dp"
-        android:layout_height="34dp"
+        android:layout_width="57dp"
+        android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:src="@drawable/ic_arrow_back"
@@ -63,8 +62,8 @@
 
     <ImageButton
         android:id="@+id/RightThanksArrow"
-        android:layout_width="55dp"
-        android:layout_height="34dp"
+        android:layout_width="59dp"
+        android:layout_height="45dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:src="@drawable/ic_arrow_forward"

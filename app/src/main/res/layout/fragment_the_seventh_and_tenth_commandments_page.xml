@@ -28,8 +28,8 @@
     <View
         android:id="@+id/view2"
         android:layout_width="wrap_content"
-        android:layout_height="4dp"
-        android:layout_marginStart="8dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
         android:background="#90030303"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -45,8 +45,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I steal?  What object did I steal?  How much money, or how much was the object worth?  Did I give it back, or at least have the intenion of doing so?  Did I knowingly accept stolen goods or services (cable television, Internet access) without payment?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
@@ -60,8 +59,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022  Have I done or caused damage to another person's property?  To what extent?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView134" />
@@ -75,7 +73,6 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022  Did I harm anyone by deception, fraud, or coercion in business contracts or transactions?"
         android:textColor="#000"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView145" />
@@ -88,8 +85,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I unncessarily spend beyond my means?  Do I spend too much money because of vanity or caprice?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView146" />
 
@@ -101,8 +97,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Do I give alms according to my capacity?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.425"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView147" />
@@ -115,7 +110,6 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Was I envious of my neighbor's goods?"
         android:textColor="#000"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"
@@ -129,8 +123,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022  Did I neglect to pay my debts?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.287"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView149" />
@@ -143,8 +136,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I knowingly accept stolen goods?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.367"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView150" />
@@ -157,8 +149,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I desire to steal?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.217"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView151" />
@@ -171,8 +162,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I give in to laziness or love of comfort rather than dilligently work or study?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView152" />
 
@@ -184,8 +174,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Was I greedy?  Do I have an excessively materialistic view of life?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView153" />

@@ -42,7 +42,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Was I disobedient toward my parents or others in authority?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
@@ -55,7 +55,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I neglect to help my parents when my help is needed?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView161" />
@@ -68,7 +68,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I react proudly when I was corrected by my parents?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +82,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I have a disordered desire for independence?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.195"
         app:layout_constraintStart_toStartOf="parent"
@@ -96,7 +96,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I do my chores?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toStartOf="parent"

@@ -26,8 +26,8 @@
     <View
         android:id="@+id/view2"
         android:layout_width="wrap_content"
-        android:layout_height="4dp"
-        android:layout_marginStart="8dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
         android:background="#90030303"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -43,7 +43,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I fail to try my best to fulfill promises and resolutions I made to God?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
@@ -57,7 +57,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I take the name of God in vain?  Did I make use of God's name mockingly, jokingly, angrily, or in any other irreverant manner?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView171" />
@@ -71,7 +71,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I make use of the Blessed Virgin Mary's name or another saint's name mockingly, jokingly, angrily, or in any other irreverent manner?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView172" />
@@ -85,7 +85,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I tell a lie under oath?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
@@ -99,7 +99,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I break (private or public) vows?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"

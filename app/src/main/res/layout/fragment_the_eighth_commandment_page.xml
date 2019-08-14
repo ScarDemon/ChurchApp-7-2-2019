@@ -25,8 +25,8 @@
     <View
         android:id="@+id/view2"
         android:layout_width="wrap_content"
-        android:layout_height="4dp"
-        android:layout_marginStart="8dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
         android:background="#90030303"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -41,8 +41,7 @@
         android:layout_marginTop="24dp"
         android:text="\u2022 Did I tell lies?  Did I repair any damage that may have resulted as a consequence of this?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
@@ -55,8 +54,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Have I unjustly or rashly accused others?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.375"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView155" />
@@ -68,8 +66,7 @@
         android:layout_marginStart="8dp"
         android:text="\u2022 Did I sin by detraction, that is, by telling the faults of another person without necessity?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.389"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView156" />
@@ -83,8 +80,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I sin by calumny, that is, by telling derogatory lies about another person?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView157" />
@@ -98,8 +94,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I engage in gossip, backbitting, or taletelling?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.364"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView158" />
@@ -112,8 +107,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I reveal a secret without due cause?"
         android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView159" />
 

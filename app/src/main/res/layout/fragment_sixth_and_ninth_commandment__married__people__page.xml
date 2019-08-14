@@ -40,7 +40,7 @@
         android:layout_marginStart="8dp"
         android:text="\u2022 Did I, without serious reason, deprive my spouse of the martial right?  Did I claim my own rights in a way which showed no concern for my spouse's state of mind or health?  Did I betray conjugal fidelity in desire or in deed?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
@@ -54,7 +54,7 @@
         android:layout_marginEnd="8dp"
         android:text='\u2022 Did I take "the pill" or use any other artifical birth control device before or after new life had already been conceived?  '
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +68,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Did I suggest to another person the use of birth-control pills or another artifical method of preventing pregnancy (like condoms)?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView131" />
@@ -80,7 +80,7 @@
         android:layout_marginStart="48dp"
         android:text="\u2022 Did I have a hand in contributing to the contraceptive mentality by my advice, jokes, or attitudes?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView132" />
 

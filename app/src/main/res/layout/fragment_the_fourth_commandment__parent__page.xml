@@ -26,8 +26,8 @@
     <View
         android:id="@+id/view2"
         android:layout_width="wrap_content"
-        android:layout_height="4dp"
-        android:layout_marginStart="8dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
         android:background="#90030303"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -42,7 +42,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Have I neglected to teach my children their prayers, send them to church, or give them a Christian education?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
@@ -55,7 +55,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Have I given them a bad example?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView167" />
@@ -69,7 +69,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Have I negelected to watch over my children, to monitor their companions, the books they read, the movies and TV shows they watch, or their use of the Internet?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView168" />
@@ -82,7 +82,7 @@
         android:layout_marginEnd="8dp"
         android:text="\u2022 Have i failed to see to it that my children have received the Sacrements of Baptism and Confirmation; that they made First Confession and First Conmmunion?"
         android:textColor="#000"
-        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView169" />

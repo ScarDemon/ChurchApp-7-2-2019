@@ -40,7 +40,6 @@
         android:layout_marginEnd="8dp"
         android:text="O my god, I am heartily sorry for having offended thee, and I detest all my sins, because I dread the loss of heaven, and the pains of hell; but most of all because they offend thee, my God, who are all good and deserving of all my love.  I firmly resolve, with the help of thy grace, to confess my sins, to do penance, and to amend my life.  Amen."
         android:textColor="#000"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
