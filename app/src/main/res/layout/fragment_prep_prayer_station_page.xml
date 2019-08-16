@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PrepPrayerStationPage"
-    android:background="@drawable/symbol">
+    >
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
         <View
             android:id="@+id/view13"
             android:layout_width="wrap_content"
-            android:layout_height="4dp"
+            android:layout_height="1dp"
             android:layout_marginStart="8dp"
             android:background="#000000 "
             app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +45,6 @@
             android:layout_marginTop="32dp"
             android:text="@string/all"
             android:textColor="#CA0404"
-            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view13" />
 
@@ -57,7 +56,6 @@
             android:layout_marginEnd="8dp"
             android:text="@string/my_lord_jesus_christ_you_have_made_this_journey_to_die_for_me_with_unspeakable_love_and_i_have_so_many_times_ungratefully_abandoned_you_on_this_journey_you_go_to_die_for_love_of_me_i_want_my_beloved_redeemer_to_die_for_love_of_you_my_jesus_i_will_live_and_die_always_united_to_you"
             android:textColor="#000"
-            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.696"
             app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +70,6 @@
             android:layout_marginEnd="8dp"
             android:text="@string/at_the_cross_her_station_keeping_n_stood_the_mournful_mother_weeping_n_close_to_jesus_to_the_last"
             android:textColor="#000"
-            android:textStyle="bold|italic"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.721"
             app:layout_constraintStart_toStartOf="parent"

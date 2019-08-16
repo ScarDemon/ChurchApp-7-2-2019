@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RealFirstStationPage"
-    android:background="@drawable/symbol">
+    >
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -28,7 +28,7 @@
         <View
             android:id="@+id/view13"
             android:layout_width="wrap_content"
-            android:layout_height="4dp"
+            android:layout_height="1dp"
             android:layout_marginStart="8dp"
             android:background="#000000 "
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
             android:layout_marginTop="24dp"
             android:text="@string/v"
             android:textColor="#DB0D0D"
-            android:textStyle="bold"
+
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view13" />
 
@@ -70,7 +70,7 @@
             android:layout_marginEnd="8dp"
             android:text="@string/genuflect"
             android:textColor="#C71717"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.121"
             app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +84,7 @@
             android:layout_marginTop="24dp"
             android:text="@string/r"
             android:textColor="#CF0909"
-            android:textStyle="bold"
+
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -111,7 +111,7 @@
             android:layout_marginEnd="8dp"
             android:text="@string/rise"
             android:textColor="#D10606"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/textView11"
@@ -125,7 +125,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/v"
             android:textColor="#F8DB0808"
-            android:textStyle="bold"
+
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -150,7 +150,7 @@
             android:layout_marginEnd="104dp"
             android:text="@string/kneel"
             android:textColor="#D61313"
-            android:textStyle="bold"
+
             app:layout_constraintBottom_toBottomOf="@+id/textView14"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView14"
@@ -164,7 +164,7 @@
             android:layout_marginTop="88dp"
             android:text="@string/r"
             android:textColor="#CF0B0B"
-            android:textStyle="bold"
+
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
