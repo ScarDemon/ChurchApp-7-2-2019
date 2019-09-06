@@ -86,7 +86,7 @@ public class MainFragment extends Fragment {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainFragmentDirections.MainToMap action = MainFragmentDirections.mainToMap();
+                MainFragmentDirections.ActionMainFragment2ToLocationPage action = MainFragmentDirections.actionMainFragment2ToLocationPage();
 
                 Navigation.findNavController(v).navigate(action);
             }

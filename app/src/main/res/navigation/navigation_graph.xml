@@ -28,6 +28,9 @@
         <action
             android:id="@+id/mainToConfess"
             app:destination="@+id/englishOrMalConfessPage" />
+        <action
+            android:id="@+id/action_mainFragment2_to_locationPage"
+            app:destination="@id/locationPage" />
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
@@ -1050,4 +1053,21 @@
         android:name="com.ebookfrenzy.sampleimagebutton.LiturgyOfTheHoursMal"
         android:label="fragment_liturgy_of_the_hours_mal"
         tools:layout="@layout/fragment_liturgy_of_the_hours_mal" />
+    <fragment
+        android:id="@+id/locationPage"
+        android:name="com.ebookfrenzy.sampleimagebutton.locationPage"
+        android:label="fragment_location_page"
+        tools:layout="@layout/fragment_location_page" >
+        <action
+            android:id="@+id/LocationToMapPage"
+            app:destination="@id/mapsActivity" />
+        <action
+            android:id="@+id/LocationToCal"
+            app:destination="@id/californiaLocations" />
+    </fragment>
+    <activity
+        android:id="@+id/californiaLocations"
+        android:name="com.ebookfrenzy.sampleimagebutton.CaliforniaLocations"
+        android:label="activity_california_locations"
+        tools:layout="@layout/activity_california_locations" />
 </navigation>

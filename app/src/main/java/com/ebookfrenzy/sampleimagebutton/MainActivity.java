@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements secondFragment.
         TwelfthStationPage.OnFragmentInteractionListener, ThirteenthStationPage.OnFragmentInteractionListener,
         FourteenthStationPage.OnFragmentInteractionListener, LitEnglishMalPage.OnFragmentInteractionListener,
         EnglishOrMalConfessPage.OnFragmentInteractionListener, SignOfCrossPage.OnFragmentInteractionListener
-        , MawPrayer.OnFragmentInteractionListener, LiturgyOfTheHoursMal.OnFragmentInteractionListener
+        , MawPrayer.OnFragmentInteractionListener, LiturgyOfTheHoursMal.OnFragmentInteractionListener, locationPage.OnFragmentInteractionListener
 {
 
 
