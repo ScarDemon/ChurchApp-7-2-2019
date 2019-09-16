@@ -1064,10 +1064,26 @@
         <action
             android:id="@+id/LocationToCal"
             app:destination="@id/californiaLocations" />
+        <action
+            android:id="@+id/action_locationPage_to_massStateActivity"
+            app:destination="@id/massStateActivity" />
+        <action
+            android:id="@+id/action_locationPage_to_canadaPage2"
+            app:destination="@id/canadaPage2" />
     </fragment>
     <activity
         android:id="@+id/californiaLocations"
         android:name="com.ebookfrenzy.sampleimagebutton.CaliforniaLocations"
         android:label="activity_california_locations"
         tools:layout="@layout/activity_california_locations" />
+    <activity
+        android:id="@+id/massStateActivity"
+        android:name="com.ebookfrenzy.sampleimagebutton.massStateActivity"
+        android:label="activity_mass_state"
+        tools:layout="@layout/activity_mass_state" />
+    <activity
+        android:id="@+id/canadaPage2"
+        android:name="com.ebookfrenzy.sampleimagebutton.CanadaPage"
+        android:label="activity_canada_page"
+        tools:layout="@layout/activity_canada_page" />
 </navigation>

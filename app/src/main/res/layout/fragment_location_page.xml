@@ -37,7 +37,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView232" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/massStateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -50,7 +50,7 @@
         app:layout_constraintTop_toBottomOf="@+id/all_locations" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/canadaPage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -60,7 +60,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button3" />
+            app:layout_constraintTop_toBottomOf="@+id/massStateButton" />
 
         <Button
             android:id="@+id/button5"
@@ -72,7 +72,7 @@
             android:text="New Jersey"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button4" />
+            app:layout_constraintTop_toBottomOf="@+id/canadaPage" />
 
         <Button
             android:id="@+id/button6"

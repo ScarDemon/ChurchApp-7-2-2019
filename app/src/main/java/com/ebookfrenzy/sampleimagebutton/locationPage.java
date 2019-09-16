@@ -126,6 +126,26 @@ public class locationPage extends Fragment {
                 Navigation.findNavController(view).navigate(action);
             }
         });
+
+        Button button3 = getView().findViewById(R.id.massStateButton);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                locationPageDirections.ActionLocationPageToMassStateActivity action = locationPageDirections.actionLocationPageToMassStateActivity();
+                Navigation.findNavController(v).navigate(action);
+
+            }
+        });
+
+        Button button4 = getView().findViewById(R.id.canadaPage);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                locationPageDirections.ActionLocationPageToCanadaPage2 action = locationPageDirections.actionLocationPageToCanadaPage2();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
     }
 
     @Override

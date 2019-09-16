@@ -33,14 +33,20 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/AIzaSyCw4Hl4kzaI8gsNnBQXeLZ72JiH5dW1nIk" />
+            android:value="AIzaSyCw4Hl4kzaI8gsNnBQXeLZ72JiH5dW1nIk" />
 
         <activity
+            android:name=".CanadaPage"
+            android:label="@string/title_activity_canada_page"></activity>
+        <activity
+            android:name=".massStateActivity"
+            android:label="Massachusetts" />
+        <activity
             android:name=".CaliforniaLocations"
-            android:label="@string/title_activity_california_locations"></activity>
+            android:label="@string/title_activity_california_locations" />
         <activity
             android:name=".MapsActivity"
-            android:label="Locations"></activity>
+            android:label="Locations" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
